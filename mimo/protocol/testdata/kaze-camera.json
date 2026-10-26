@@ -1,0 +1,92 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.camera.manual_iso.auto",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3CameraSettings.ManualISO and manualISO @ 5d11fde"
+    },
+    "operation": "camera.setManualIso",
+    "input": {
+      "iso": "AUTO"
+    },
+    "expected": {
+      "commandSetHex": "02",
+      "commandIdHex": "2A",
+      "payloadHex": "00"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.camera.manual_iso.100",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3CameraSettings.ManualISO and manualISO @ 5d11fde"
+    },
+    "operation": "camera.setManualIso",
+    "input": {
+      "iso": "100"
+    },
+    "expected": {
+      "commandSetHex": "02",
+      "commandIdHex": "2A",
+      "payloadHex": "03"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.camera.manual_iso.6400",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3CameraSettings.ManualISO and manualISO @ 5d11fde"
+    },
+    "operation": "camera.setManualIso",
+    "input": {
+      "iso": "6400"
+    },
+    "expected": {
+      "commandSetHex": "02",
+      "commandIdHex": "2A",
+      "payloadHex": "09"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.camera.iso_max.100",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3CameraSettingsTests.testISOMaxEncoding @ 5d11fde"
+    },
+    "operation": "camera.setIsoMax",
+    "input": {
+      "iso": 100
+    },
+    "expected": {
+      "commandSetHex": "02",
+      "commandIdHex": "8E",
+      "payloadHex": "01010F000101"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.camera.iso_max.6400",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3CameraSettingsTests.testISOMaxEncoding @ 5d11fde"
+    },
+    "operation": "camera.setIsoMax",
+    "input": {
+      "iso": 6400
+    },
+    "expected": {
+      "commandSetHex": "02",
+      "commandIdHex": "8E",
+      "payloadHex": "01010F000107"
+    }
+  }
+]

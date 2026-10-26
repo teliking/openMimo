@@ -1,0 +1,62 @@
+{
+  "addr": "0x1775148",
+  "code": "__int64 __fastcall dji::sdk::CameraVideoModule::ActionStartRecordVideo(__int64 a1, __int64 a2, __int64 a3, __int64 *a4)\n{\n  dji::sdk::RecordTaskEntity *v7; // x20\n  __int64 v8; // x21\n  __int64 v9; // x23\n  _QWORD *v10; // x0\n  __int64 v11; // x8\n  const dji::core::dji_cmd_req *v12; // x2\n  std::__shared_weak_count *v13; // x0\n  std::__shared_weak_count *v14; // x21\n  std::__shared_weak_count *v15; // x0\n  std::__shared_weak_count *v16; // x23\n  std::__shared_weak_count *v17; // x24\n  char v18; // w28\n  __int64 v19; // x0\n  _QWORD *v20; // x23\n  __int64 v21; // x8\n  __int64 v22; // x0\n  __int128 v23; // q0\n  _QWORD *v24; // x8\n  __int64 v25; // x22\n  _QWORD *v26; // x9\n  __int64 v27; // x8\n  __int64 v28; // x8\n  unsigned __int8 v29[4]; // [xsp+Ch] [xbp-C4h] BYREF\n  _BYTE v30[32]; // [xsp+10h] [xbp-C0h] BYREF\n  _BYTE v31[16]; // [xsp+30h] [xbp-A0h] BYREF\n  std::__shared_weak_count *v32[2]; // [xsp+40h] [xbp-90h]\n  _QWORD v33[4]; // [xsp+50h] [xbp-80h] BYREF\n  _QWORD *v34; // [xsp+70h] [xbp-60h] BYREF\n  _QWORD v35[10]; // [xsp+80h] [xbp-50h] BYREF\n\n  v35[7] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1775170*/\n  if ( (*(_BYTE *)(a1 + 184) & 1) != 0 ) /*0x1775178*/\n    return 4294967283LL; /*0x177518c*/\n  v8 = *(_QWORD *)(a1 + 192); /*0x17751a0*/\n  v9 = *(_QWORD *)(a1 + 200); /*0x17751a0*/\n  v7 = (dji::sdk::RecordTaskEntity *)(a1 + 192); /*0x17751a0*/\n  while ( v9 != v8 ) /*0x17751dc*/\n  {\n    v10 = *(_QWORD **)(v9 - 16); /*0x17751e0*/\n    if ( (_QWORD *)(v9 - 48) == v10 ) /*0x17751ec*/\n    {\n      v10 = (_QWORD *)(v9 - 48); /*0x17751ac*/\n      v11 = 32; /*0x17751b0*/\nLABEL_5:\n      (*(void (**)(void))(*v10 + v11))(); /*0x17751b4*/\n      goto LABEL_6; /*0x17751bc*/\n    }\n    if ( v10 != nullptr ) /*0x17751f0*/\n    {\n      v11 = 40; /*0x17751f4*/\n      goto LABEL_5; /*0x17751f8*/\n    }\nLABEL_6:\n    Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)(v9 - 64), a2: nullptr, a3: 0); /*0x17751c0*/\n    v9 -= 96; /*0x17751d4*/\n  }\n  *(_QWORD *)(a1 + 200) = v8; /*0x17751fc*/\n  *(_BYTE *)(a1 + 184) = 1; /*0x1775208*/\n  v29[0] = 1; /*0x1775210*/\n  dji::core::dji_cmd_base_req<(unsigned char)1,(unsigned char)2,(unsigned char)2,dji_camera_record_video_req,dji_camera_record_video_rsp>::dji_cmd_base_req(this: (dji::core::dji_cmd_base_req<(unsigned char)1, (unsigned char)2, (unsigned char)2, dji_camera_record_video_req, dji_camera_record_video_rsp> *)v30); /*0x1775214*/\n  v30[7] = 1; /*0x1775220*/\n  v30[2] = 2; /*0x1775224*/\n  v30[4] = 3; /*0x1775228*/\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v31, a2: v29, a3: 1u); /*0x1775238*/\n  dji::sdk::RecordTaskEntity::PushSimpleTask<dji::core::record_video_req>( /*0x1775244*/\n    this: v7,\n    a2: (std::vector<dji::sdk::RecordTaskEntity> *)v30,\n    a3: v12);\n  v13 = *(std::__shared_weak_count **)(a1 + 24); /*0x1775248*/\n  if ( v13 == nullptr /*0x1775258*/\n    || (v14 = *(std::__shared_weak_count **)(a1 + 16),\n        (v15 = (std::__shared_weak_count *)std::__shared_weak_count::lock(this: v13)) == nullptr) )\n  {\n    sub_1231F84(); /*0x17754d0*/\n  }\n  v16 = v15; /*0x177525c*/\n  if ( v14 != nullptr ) /*0x1775260*/\n  {\n    v17 = (std::__shared_weak_count *)_dynamic_cast( /*0x1775280*/\n                                        lpsrc: v14,\n                                        lpstype: (const __class_type_info *)off_275E798,\n                                        lpdtype: (const __class_type_info *)off_27610B0,\n                                        s2d: 0);\n    if ( v17 != nullptr ) /*0x1775284*/\n    {\n      sub_2619930(a1: 1, a2: (char *)v16 + 8); /*0x1775290*/\n      sub_2619930(a1: 1, a2: (char *)v16 + 16); /*0x177529c*/\n      if ( sub_2619960(a1: -1, a2: (char *)v16 + 8) == 0 ) /*0x17752ac*/\n      {\n        (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v16 + 16LL))(a1: v16); /*0x17752bc*/\n        std::__shared_weak_count::__release_weak(this: v16); /*0x17752c4*/\n      }\n      v18 = 0; /*0x17752c8*/\n      v14 = v16; /*0x17752cc*/\n      if ( sub_2619960(a1: -1, a2: (char *)v16 + 8) != 0 ) /*0x17752dc*/\n      {\nLABEL_18:\n        v32[0] = v17; /*0x17752e0*/\n        v32[1] = v14; /*0x17752e0*/\n        if ( (v18 & 1) != 0 ) /*0x17752e4*/\n          goto LABEL_19; /*0x17752e4*/\nLABEL_25:\n        sub_2619930(a1: 1, a2: (char *)v14 + 16); /*0x1775350*/\n        v19 = a4[4]; /*0x177535c*/\n        v20 = v33; /*0x1775364*/\n        if ( v19 != 0 ) /*0x1775368*/\n          goto LABEL_26; /*0x1775368*/\nLABEL_28:\n        v34 = (_QWORD *)v19; /*0x1775380*/\n        goto LABEL_30; /*0x1775384*/\n      }\n    }\n    else\n    {\n      v14 = nullptr; /*0x1775318*/\n      v18 = 1; /*0x177531c*/\n      if ( sub_2619960(a1: -1, a2: (char *)v16 + 8) != 0 ) /*0x177532c*/\n        goto LABEL_18; /*0x177532c*/\n    }\n  }\n  else\n  {\n    v17 = nullptr; /*0x17752fc*/\n    v18 = 1; /*0x1775300*/\n    if ( sub_2619960(a1: -1, a2: (char *)v15 + 8) != 0 ) /*0x1775310*/\n      goto LABEL_18; /*0x1775310*/\n  }\n  (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v16 + 16LL))(a1: v16); /*0x177533c*/\n  std::__shared_weak_count::__release_weak(this: v16); /*0x1775344*/\n  v32[0] = v17; /*0x1775348*/\n  v32[1] = v14; /*0x1775348*/\n  if ( (v18 & 1) == 0 ) /*0x177534c*/\n    goto LABEL_25; /*0x177534c*/\nLABEL_19:\n  v19 = a4[4]; /*0x17752e8*/\n  v20 = v33; /*0x17752f0*/\n  if ( v19 == 0 ) /*0x17752f4*/\n    goto LABEL_28; /*0x17752f4*/\nLABEL_26:\n  if ( (__int64 *)v19 != a4 ) /*0x1775370*/\n  {\n    v19 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v19 + 16LL))(a1: v19); /*0x177537c*/\n    goto LABEL_28; /*0x177537c*/\n  }\n  v21 = *a4; /*0x1775388*/\n  v34 = v33; /*0x177538c*/\n  (*(void (__fastcall **)(__int64 *, _QWORD *))(v21 + 24))(a1: a4, a2: v33); /*0x177539c*/\nLABEL_30:\n  v35[4] = 0; /*0x17753a0*/\n  v22 = operator new(a1: 0x50u); /*0x17753a8*/\n  v23 = *(_OWORD *)v32; /*0x17753b4*/\n  *(_QWORD *)v22 = &off_26AD268; /*0x17753b8*/\n  v24 = v34; /*0x17753bc*/\n  v25 = v22; /*0x17753c0*/\n  *(_OWORD *)(v22 + 16) = v23; /*0x17753c4*/\n  v32[0] = nullptr; /*0x17753c8*/\n  v32[1] = nullptr; /*0x17753c8*/\n  if ( v24 != nullptr ) /*0x17753cc*/\n  {\n    if ( v24 != v33 ) /*0x17753d4*/\n    {\n      *(_QWORD *)(v22 + 64) = v24; /*0x17753dc*/\n      v26 = &v34; /*0x17753e0*/\n      goto LABEL_34; /*0x17753e4*/\n    }\n    v27 = v33[0]; /*0x17753f8*/\n    *(_QWORD *)(v22 + 64) = v22 + 32; /*0x17753fc*/\n    (*(void (__fastcall **)(_QWORD *))(v27 + 24))(a1: v33); /*0x1775408*/\n  }\n  else\n  {\n    v26 = (_QWORD *)(v22 + 64); /*0x17753e8*/\nLABEL_34:\n    *v26 = 0; /*0x17753ec*/\n  }\n  v35[4] = v25; /*0x177540c*/\n  dji::sdk::CameraVideoModule::RunTasks(a1, a2: v7, a3: 0, a4: v35); /*0x1775420*/\n  (*(void (__fastcall **)(__int64))(*(_QWORD *)v25 + 40LL))(a1: v25); /*0x1775430*/\n  if ( v34 == v33 ) /*0x177543c*/\n  {\n    v28 = 32; /*0x1775450*/\nLABEL_40:\n    (*(void (__fastcall **)(_QWORD *))(*v20 + v28))(a1: v20); /*0x1775454*/\n  }\n  else if ( v34 != nullptr ) /*0x1775440*/\n  {\n    v28 = 40; /*0x1775444*/\n    v20 = v34; /*0x1775448*/\n    goto LABEL_40; /*0x177544c*/\n  }\n  if ( v32[1] != nullptr ) /*0x1775468*/\n    std::__shared_weak_count::__release_weak(this: v32[1]); /*0x177546c*/\n  if ( (v18 & 1) == 0 ) /*0x1775470*/\n    std::__shared_weak_count::__release_weak(this: v14); /*0x1775478*/\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v31, a2: nullptr, a3: 0); /*0x1775488*/\n  return 0; /*0x17754bc*/\n}",
+  "refs": [
+    {
+      "addr": "0x261dbd0",
+      "name": "_ZN3Dji6Common6Buffer6assignEPKhj"
+    },
+    {
+      "addr": "0x2634b60",
+      "name": "j__ZN3dji4core16dji_cmd_base_reqILh1ELh2ELh2E27dji_camera_record_video_req27dji_camera_record_video_rspEC2Ev"
+    },
+    {
+      "addr": "0x263f590",
+      "name": "j__ZN3dji3sdk16RecordTaskEntity14PushSimpleTaskINS_4core16record_video_reqEEEvRNSt6__ndk16vectorIS1_NS5_9allocatorIS1_EEEERKNS3_11dji_cmd_reqE"
+    },
+    {
+      "addr": "0x1231f84",
+      "name": "sub_1231F84"
+    },
+    {
+      "addr": "0x261e100",
+      "name": "_ZNSt6__ndk119__shared_weak_count4lockEv"
+    },
+    {
+      "addr": "0x261dd20",
+      "name": "__dynamic_cast"
+    },
+    {
+      "addr": "0x275e798",
+      "name": "off_275E798"
+    },
+    {
+      "addr": "0x27610b0",
+      "name": "off_27610B0"
+    },
+    {
+      "addr": "0x2619930",
+      "name": "sub_2619930"
+    },
+    {
+      "addr": "0x261d9c0",
+      "name": "_ZNSt6__ndk119__shared_weak_count14__release_weakEv"
+    },
+    {
+      "addr": "0x2619960",
+      "name": "sub_2619960"
+    },
+    {
+      "addr": "0x261d910",
+      "name": "_Znwm"
+    },
+    {
+      "addr": "0x26ad268",
+      "name": "off_26AD268"
+    },
+    {
+      "addr": "0x263f580",
+      "name": "j__ZN3dji3sdk17CameraVideoModule8RunTasksERKNSt6__ndk16vectorINS0_16RecordTaskEntityENS2_9allocatorIS4_EEEEiNS2_8functionIFviEEE"
+    }
+  ]
+}

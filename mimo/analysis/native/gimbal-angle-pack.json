@@ -1,0 +1,18 @@
+{
+  "addr": "0x21a523c",
+  "code": "__int64 __usercall GetRotateAnglePack@<X0>(__int64 a1@<X0>, _OWORD *a2@<X8>)\n{\n  double v3; // d3\n  double v4; // d1\n  double v5; // d2\n  char v6; // w9\n  double v7; // d4\n  __int128 v8; // q1\n  _WORD v10[3]; // [xsp+0h] [xbp-40h] BYREF\n  char v11; // [xsp+6h] [xbp-3Ah]\n  char v12; // [xsp+7h] [xbp-39h]\n  _QWORD v13[4]; // [xsp+8h] [xbp-38h] BYREF\n  _QWORD v14[3]; // [xsp+28h] [xbp-18h] BYREF\n\n  v14[2] = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x21a5264*/\n  v3 = *(double *)(*(_QWORD *)a1 + 16LL); /*0x21a5278*/\n  v5 = *(double *)(*(_QWORD *)a1 + 24LL); /*0x21a527c*/\n  v4 = *(double *)(*(_QWORD *)a1 + 32LL); /*0x21a527c*/\n  v6 = 2 * *(_BYTE *)(*(_QWORD *)a1 + 42LL); /*0x21a5284*/\n  v7 = *(double *)(*(_QWORD *)a1 + 48LL); /*0x21a5288*/\n  if ( *(_DWORD *)(*(_QWORD *)a1 + 8LL) != 0 ) /*0x21a5294*/\n    ++v6; /*0x21a5294*/\n  v11 = v6 | (8 * *(_BYTE *)(*(_QWORD *)a1 + 40LL)) | (4 * *(_BYTE *)(*(_QWORD *)a1 + 41LL)); /*0x21a52bc*/\n  v10[0] = (int)(v4 * 10.0); /*0x21a52c8*/\n  v10[1] = (int)(v5 * 10.0); /*0x21a52cc*/\n  v10[2] = (int)(v3 * 10.0); /*0x21a52d0*/\n  v12 = 10 * (int)v7; /*0x21a52d4*/\n  dji::core::dji_cmd_base_req<(unsigned char)1,(unsigned char)4,(unsigned char)20,dji_gimbal_set_control_gimbal_angle_ex_req,dji_gimbal_set_control_gimbal_angle_ex_rsp>::dji_cmd_base_req(this: (dji::core::dji_cmd_base_req<(unsigned char)1, (unsigned char)4, (unsigned char)20, dji_gimbal_set_control_gimbal_angle_ex_req, dji_gimbal_set_control_gimbal_angle_ex_rsp> *)v13); /*0x21a52d8*/\n  BYTE2(v13[0]) = 20; /*0x21a52e4*/\n  *(_WORD *)((char *)v13 + 7) = 4; /*0x21a52ec*/\n  BYTE4(v13[0]) = 3; /*0x21a52f0*/\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v14, a2: (const unsigned __int8 *)v10, a3: 8u); /*0x21a5300*/\n  v8 = *(_OWORD *)((char *)&v13[1] + 4); /*0x21a5308*/\n  *a2 = *(_OWORD *)v13; /*0x21a5314*/\n  *(_OWORD *)((char *)a2 + 12) = v8; /*0x21a5318*/\n  Dji::Common::Buffer::Buffer(this: (Dji::Common::Buffer *)(a2 + 2), a2: (Dji::Common::Buffer *)v14); /*0x21a531c*/\n  return Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v14, a2: nullptr, a3: 0); /*0x21a5350*/\n}",
+  "refs": [
+    {
+      "addr": "0x2636930",
+      "name": "j__ZN3dji4core16dji_cmd_base_reqILh1ELh4ELh20E42dji_gimbal_set_control_gimbal_angle_ex_req42dji_gimbal_set_control_gimbal_angle_ex_rspEC2Ev"
+    },
+    {
+      "addr": "0x261dbd0",
+      "name": "_ZN3Dji6Common6Buffer6assignEPKhj"
+    },
+    {
+      "addr": "0x261e6c0",
+      "name": "_ZN3Dji6Common6BufferC1EOS1_"
+    }
+  ]
+}

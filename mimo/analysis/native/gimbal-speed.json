@@ -1,0 +1,74 @@
+{
+  "addr": "0x21a5b54",
+  "code": "__int64 __fastcall RotateBySpeedAction(__int64 *a1, __int64 a2, __int64 a3, __int64 *a4)\n{\n  double *v8; // x0\n  std::__shared_weak_count *v9; // x8\n  double *v10; // x22\n  double v11; // d1\n  double v12; // d2\n  double v13; // d3\n  char v14; // w0\n  __int64 v15; // x8\n  __int64 v16; // x0\n  __int64 v17; // x21\n  unsigned int v18; // w20\n  __int64 v19; // x9\n  _QWORD *v20; // x0\n  __int64 v21; // x8\n  _QWORD *v22; // x0\n  __int64 v23; // x8\n  _QWORD *v24; // x0\n  __int64 v25; // x8\n  _QWORD *v26; // x0\n  __int64 v27; // x8\n  std::__shared_weak_count *v28; // x19\n  _QWORD *v30; // x0\n  char *v31; // x9\n  long double v32; // q0\n  __int64 v33; // x0\n  std::__shared_weak_count *v34; // x19\n  std::__shared_weak_count *v35; // x19\n  _QWORD *v36; // [xsp+10h] [xbp-140h] BYREF\n  std::__shared_weak_count *v37; // [xsp+18h] [xbp-138h]\n  _QWORD *v38; // [xsp+20h] [xbp-130h] BYREF\n  std::__shared_weak_count *v39; // [xsp+28h] [xbp-128h]\n  unsigned __int8 v40[8]; // [xsp+30h] [xbp-120h] BYREF\n  double *v41; // [xsp+38h] [xbp-118h]\n  std::__shared_weak_count *v42; // [xsp+40h] [xbp-110h]\n  int v43; // [xsp+4Ch] [xbp-104h] BYREF\n  _BYTE v44[2]; // [xsp+50h] [xbp-100h] BYREF\n  __int16 v45; // [xsp+52h] [xbp-FEh]\n  char v46; // [xsp+54h] [xbp-FCh]\n  __int16 v47; // [xsp+57h] [xbp-F9h]\n  _BYTE v48[16]; // [xsp+70h] [xbp-E0h] BYREF\n  _QWORD v49[4]; // [xsp+80h] [xbp-D0h] BYREF\n  _QWORD *v50; // [xsp+A0h] [xbp-B0h]\n  _QWORD v51[4]; // [xsp+B0h] [xbp-A0h] BYREF\n  _QWORD *v52; // [xsp+D0h] [xbp-80h]\n  _BYTE v53[32]; // [xsp+E0h] [xbp-70h] BYREF\n  _BYTE *v54; // [xsp+100h] [xbp-50h]\n  _BYTE v55[32]; // [xsp+110h] [xbp-40h] BYREF\n  _BYTE *v56; // [xsp+130h] [xbp-20h]\n  __int64 v57; // [xsp+148h] [xbp-8h]\n\n  v57 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x21a5b78*/\n  if ( *(_QWORD *)a3 == 0 ) /*0x21a5b80*/\n    return (unsigned int)-6; /*0x21a5b80*/\n  v8 = (double *)_dynamic_cast( /*0x21a5bac*/\n                   lpsrc: *(const void **)a3,\n                   lpstype: (const __class_type_info *)off_2754AA0,\n                   lpdtype: (const __class_type_info *)off_2763F58,\n                   s2d: 0);\n  if ( v8 == nullptr ) /*0x21a5bb0*/\n    return (unsigned int)-6; /*0x21a5ca8*/\n  v9 = *(std::__shared_weak_count **)(a3 + 8); /*0x21a5bb4*/\n  v10 = v8; /*0x21a5bb8*/\n  v41 = v8; /*0x21a5bbc*/\n  v42 = v9; /*0x21a5bbc*/\n  if ( v9 != nullptr ) /*0x21a5bc0*/\n    sub_2619930(a1: 1, a2: (char *)v9 + 8); /*0x21a5bcc*/\n  v12 = v10[1]; /*0x21a5bd4*/\n  v11 = v10[2]; /*0x21a5bd4*/\n  v13 = v10[3]; /*0x21a5bd8*/\n  *(_WORD *)&v40[6] = 129; /*0x21a5be0*/\n  *(_WORD *)v40 = (int)(v11 * 10.0); /*0x21a5bfc*/\n  *(_WORD *)&v40[4] = (int)(v12 * 10.0); /*0x21a5c00*/\n  *(_WORD *)&v40[2] = (int)(v13 * 10.0); /*0x21a5c04*/\n  dji::core::dji_cmd_base_req<(unsigned char)1,(unsigned char)4,(unsigned char)12,dji_gimbal_set_cmd_custom_ctrl_speed_req,dji_gimbal_set_cmd_custom_ctrl_speed_rsp>::dji_cmd_base_req(this: (dji::core::dji_cmd_base_req<(unsigned char)1, (unsigned char)4, (unsigned char)12, dji_gimbal_set_cmd_custom_ctrl_speed_req, dji_gimbal_set_cmd_custom_ctrl_speed_rsp> *)v44); /*0x21a5c10*/\n  v45 = 12; /*0x21a5c1c*/\n  v47 = 4; /*0x21a5c24*/\n  v46 = 3; /*0x21a5c28*/\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v48, a2: v40, a3: 8u); /*0x21a5c38*/\n  v14 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)a1[2] + 48LL))(a1: a1[2]); /*0x21a5c48*/\n  v15 = a1[2]; /*0x21a5c4c*/\n  LOBYTE(v47) = v14; /*0x21a5c50*/\n  LOWORD(v38) = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v15 + 48LL))(a1: v15); /*0x21a5c64*/\n  dji::core::dji_cmd_req_header::SetReceiverIndex( /*0x21a5c74*/\n    this: (dji::core::dji_cmd_req_header *)v44,\n    a2: (const unsigned __int8 *)&v38 + 1);\n  v16 = a4[4]; /*0x21a5c78*/\n  v17 = *a1; /*0x21a5c7c*/\n  v56 = nullptr; /*0x21a5c80*/\n  if ( v16 == 0 ) /*0x21a5c84*/\n    goto LABEL_8; /*0x21a5c84*/\n  if ( (__int64 *)v16 != a4 ) /*0x21a5c8c*/\n  {\n    v16 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v16 + 16LL))(a1: v16); /*0x21a5c98*/\nLABEL_8:\n    v54 = (_BYTE *)v16; /*0x21a5c9c*/\n    goto LABEL_11; /*0x21a5ca0*/\n  }\n  v19 = *a4; /*0x21a5cb0*/\n  v54 = v53; /*0x21a5cb4*/\n  (*(void (__fastcall **)(__int64 *, _BYTE *))(v19 + 24))(a1: a4, a2: v53); /*0x21a5cc4*/\nLABEL_11:\n  v51[0] = &off_2727A98; /*0x21a5cc8*/\n  v52 = v51; /*0x21a5ce4*/\n  v50 = v49; /*0x21a5cf4*/\n  v49[0] = off_275A8D8[0] + 16; /*0x21a5cf8*/\n  v49[1] = off_275A840; /*0x21a5cf8*/\n  v18 = SendActionPack<dji::core::set_gimbal_control_gimbal_speed_req>( /*0x21a5d24*/\n          a1: v17,\n          a2: v44,\n          a3: a2,\n          a4: v55,\n          a5: v53,\n          a6: 0,\n          a7: 1,\n          a8: v51,\n          a9: v49);\n  v20 = v50; /*0x21a5d28*/\n  if ( v50 == v49 ) /*0x21a5d30*/\n  {\n    v21 = 32; /*0x21a5d40*/\n    v20 = v49; /*0x21a5d44*/\n  }\n  else\n  {\n    if ( v50 == nullptr ) /*0x21a5d34*/\n      goto LABEL_16; /*0x21a5d34*/\n    v21 = 40; /*0x21a5d38*/\n  }\n  (*(void (**)(void))(*v20 + v21))(); /*0x21a5d50*/\nLABEL_16:\n  v22 = v52; /*0x21a5d54*/\n  if ( v52 == v51 ) /*0x21a5d60*/\n  {\n    v23 = 32; /*0x21a5d70*/\n    v22 = v51; /*0x21a5d74*/\n  }\n  else\n  {\n    if ( v52 == nullptr ) /*0x21a5d64*/\n      goto LABEL_21; /*0x21a5d64*/\n    v23 = 40; /*0x21a5d68*/\n  }\n  (*(void (**)(void))(*v22 + v23))(); /*0x21a5d80*/\nLABEL_21:\n  v24 = v54; /*0x21a5d84*/\n  if ( v54 == v53 ) /*0x21a5d90*/\n  {\n    v25 = 32; /*0x21a5da0*/\n    v24 = v53; /*0x21a5da4*/\n  }\n  else\n  {\n    if ( v54 == nullptr ) /*0x21a5d94*/\n      goto LABEL_26; /*0x21a5d94*/\n    v25 = 40; /*0x21a5d98*/\n  }\n  (*(void (**)(void))(*v24 + v25))(); /*0x21a5db0*/\nLABEL_26:\n  v26 = v56; /*0x21a5db4*/\n  if ( v56 == v55 ) /*0x21a5dc0*/\n  {\n    v27 = 32; /*0x21a5dd0*/\n    v26 = v55; /*0x21a5dd4*/\n    goto LABEL_30; /*0x21a5dd4*/\n  }\n  if ( v56 != nullptr ) /*0x21a5dc4*/\n  {\n    v27 = 40; /*0x21a5dc8*/\nLABEL_30:\n    (*(void (**)(void))(*v26 + v27))(); /*0x21a5dd8*/\n  }\n  if ( v18 == 0 ) /*0x21a5de4*/\n  {\n    v30 = (_QWORD *)operator new(a1: 0x20u); /*0x21a5e5c*/\n    v30[2] = 0; /*0x21a5e60*/\n    v31 = (char *)off_2763388 + 16; /*0x21a5e80*/\n    *v30 = off_275BD08 + 16; /*0x21a5e84*/\n    v30[3] = v31; /*0x21a5e88*/\n    v38 = v30 + 3; /*0x21a5e8c*/\n    v39 = (std::__shared_weak_count *)v30; /*0x21a5e8c*/\n    v36 = v30 + 3; /*0x21a5e90*/\n    v37 = (std::__shared_weak_count *)v30; /*0x21a5e90*/\n    v30[1] = 0; /*0x21a5e98*/\n    *(__n128 *)&v32 = sub_2619930(a1: 1, a2: v30 + 1); /*0x21a5e9c*/\n    v33 = a4[4]; /*0x21a5ea0*/\n    v43 = 0; /*0x21a5ea4*/\n    if ( v33 == 0 ) /*0x21a5ea8*/\n      sub_10B5F70(a1: v32); /*0x21a5f34*/\n    (*(void (__fastcall **)(__int64, int *, _QWORD **, long double))(*(_QWORD *)v33 + 48LL))( /*0x21a5ebc*/\n      a1: v33,\n      a2: &v43,\n      a3: &v36,\n      a4: v32);\n    v34 = v37; /*0x21a5ec0*/\n    if ( v37 != nullptr && sub_2619960(a1: -1, a2: (char *)v37 + 8) == 0 ) /*0x21a5ed4*/\n    {\n      (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v34 + 16LL))(a1: v34); /*0x21a5ee4*/\n      std::__shared_weak_count::__release_weak(this: v34); /*0x21a5eec*/\n    }\n    v35 = v39; /*0x21a5ef0*/\n    if ( v39 != nullptr && sub_2619960(a1: -1, a2: (char *)v39 + 8) == 0 ) /*0x21a5f04*/\n    {\n      (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v35 + 16LL))(a1: v35); /*0x21a5f14*/\n      std::__shared_weak_count::__release_weak(this: v35); /*0x21a5f1c*/\n    }\n  }\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v48, a2: nullptr, a3: 0); /*0x21a5df4*/\n  v28 = v42; /*0x21a5df8*/\n  if ( v42 != nullptr && sub_2619960(a1: -1, a2: (char *)v42 + 8) == 0 ) /*0x21a5e0c*/\n  {\n    (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v28 + 16LL))(a1: v28); /*0x21a5e1c*/\n    std::__shared_weak_count::__release_weak(this: v28); /*0x21a5e24*/\n  }\n  return v18; /*0x21a5e54*/\n}",
+  "refs": [
+    {
+      "addr": "0x261dd20",
+      "name": "__dynamic_cast"
+    },
+    {
+      "addr": "0x2754aa0",
+      "name": "off_2754AA0"
+    },
+    {
+      "addr": "0x2763f58",
+      "name": "off_2763F58"
+    },
+    {
+      "addr": "0x2619930",
+      "name": "sub_2619930"
+    },
+    {
+      "addr": "0x2629260",
+      "name": "j__ZN3dji4core16dji_cmd_base_reqILh1ELh4ELh12E40dji_gimbal_set_cmd_custom_ctrl_speed_req40dji_gimbal_set_cmd_custom_ctrl_speed_rspEC2Ev"
+    },
+    {
+      "addr": "0x261dbd0",
+      "name": "_ZN3Dji6Common6Buffer6assignEPKhj"
+    },
+    {
+      "addr": "0x2620250",
+      "name": "_ZN3dji4core18dji_cmd_req_header16SetReceiverIndexERKh"
+    },
+    {
+      "addr": "0x2727a98",
+      "name": "off_2727A98"
+    },
+    {
+      "addr": "0x275a8d8",
+      "name": "off_275A8D8"
+    },
+    {
+      "addr": "0x275a840",
+      "name": "off_275A840"
+    },
+    {
+      "addr": "0x2636940",
+      "name": "j__Z14SendActionPackIN3dji4core35set_gimbal_control_gimbal_speed_reqEEiPNS0_3sdk3key12IPackHandlerERNS1_11dji_cmd_reqERKNS3_15CharacteristicsENSt6__ndk18functionIFNSC_10shared_ptrIKNS3_8DjiValueEEEPKNT_7RspTypeEjEEENSD_IFviSH_EEEbbNSD_IFiSL_jEEENSD_IFiiEEE"
+    },
+    {
+      "addr": "0x261d910",
+      "name": "_Znwm"
+    },
+    {
+      "addr": "0x2763388",
+      "name": "off_2763388"
+    },
+    {
+      "addr": "0x275bd08",
+      "name": "off_275BD08"
+    },
+    {
+      "addr": "0x10b5f70",
+      "name": "sub_10B5F70"
+    },
+    {
+      "addr": "0x261d9c0",
+      "name": "_ZNSt6__ndk119__shared_weak_count14__release_weakEv"
+    },
+    {
+      "addr": "0x2619960",
+      "name": "sub_2619960"
+    }
+  ]
+}

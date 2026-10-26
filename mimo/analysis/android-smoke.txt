@@ -1,0 +1,2 @@
+openMimo offline JNI + UI + network-binding + service checks passed; assertions=25; no camera commands sent
+

@@ -1,0 +1,47 @@
+{
+  "addr": "0x1df58bc",
+  "code": "__int64 __fastcall dji::sdk::key::HG212CameraAbs::WillSetup(dji::sdk::key::HG212CameraAbs *this)\n{\n  __int64 v2; // x21\n  __int64 (__fastcall **v3)(int, int, int, int, int, int, int, int, int, int, int, int, char, int, char, int, int, int, int, int, char, int, int, int, __int64); // x0\n  __int64 v4; // x8\n  __int64 (__fastcall **v5)(int, int, int, int, int, int, int, int, int, int, int, int, char, int, char, int, int, int, int, int, char, int, int, int, __int64); // x0\n  __int64 v6; // x8\n  __int64 (__fastcall **v7)(int, int, int, int, int, int, int, int, int, int, int, int, char, int, char, int, int, int, int, int, char, int, int, int, __int64); // x0\n  __int64 v8; // x8\n  __int64 (__fastcall **v9)(int, int, int, int, int, int, int, int, int, int, int, int, char, int, char, int, int, int, int, int, char, int, int, int, __int64); // x0\n  __int64 v10; // x8\n  __int64 (__fastcall **v11)(int, int, int, int, int, int, int, int, int, int, int, int, char, int, char, int, int, int, int, int, ... [146327 chars total]",
+  "refs": [
+    {
+      "addr": "0x2632330",
+      "name": "j__ZN3dji3sdk3key14HG212CameraAbs19ObserverRangeUpdateEv"
+    },
+    {
+      "addr": "0x2632340",
+      "name": "j__ZN3dji3sdk3key14HG212CameraAbs16ObserverPushPackEv"
+    },
+    {
+      "addr": "0x2632350",
+      "name": "j__ZN3dji3sdk3key14HG212CameraAbs17ObserverTopicPackEv"
+    },
+    {
+      "addr": "0x27567a0",
+      "name": "off_27567A0"
+    },
+    {
+      "addr": "0x275ab10",
+      "name": "off_275AB10"
+    },
+    {
+      "addr": "0x26340f0",
+      "name": "j__ZN3dji3sdk3key7BaseAbs10BindActionERKNSt6__ndk112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS3_8functionIFiPNS1_11KeyHandlersERKNS0_15CharacteristicsERKNS3_10shared_ptrIKNS0_8DjiValueEEERKNSC_IFviSL_EEEEEENS2_13BindingSourceE"
+    },
+    {
+      "addr": "0x261d780",
+      "name": "_ZdlPv"
+    },
+    {
+      "addr": "0x275ab20",
+      "name": "off_275AB20"
+    },
+    {
+      "addr": "0x275aac8",
+      "name": "off_275AAC8"
+    },
+    {
+      "addr": "0x275aad0",
+      "name": "off_275AAD0"
+    }
+  ],
+  "decompilation_truncated": true
+}

@@ -1,0 +1,94 @@
+{
+  "addr": "0x260c944",
+  "code": "__int64 __fastcall dji::core::DjiProtocolEncoder::Encode(\n        dji::core::DjiProtocolEncoder *this,\n        const dji::core::dji_cmd_req *a2,\n        __int16 a3,\n        char a4,\n        char a5,\n        unsigned __int16 a6,\n        unsigned __int8 *s,\n        unsigned int a8,\n        unsigned int *a9)\n{\n  unsigned int *v9; // x24\n  int v10; // w25\n  unsigned __int8 *v11; // x19\n  signed int v13; // w26\n  size_t v14; // x2\n  dji::core::DjiProtocolEncoder *v15; // x27\n  unsigned __int16 v16; // w21\n  char v17; // w23\n  __int16 v18; // w8\n  __int16 v22; // w8\n  int v23; // w10\n  __int16 v24; // w9\n  int v25; // w8\n  __int16 v26; // w11\n  __int16 v27; // w8\n  int v28; // w8\n  int v29; // w10\n  __int16 ReceiverIndex; // w0\n  unsigned __int8 v31; // w0\n  int v32; // w9\n  __int16 v33; // w8\n  __int16 v34; // w9\n  size_t v35; // x2\n  unsigned __int8 v36; // w0\n  char v37; // w8\n  __int16 v38; // w9\n  __int16 v39; // w9\n  __int16 v40; // w9\n  __int16 v41; // w0\n  __int16 v42; // w8\n  unsigned __int8 v43; // w27\n  __int16 v44; // w9\n  __int64 v45; // x21\n  __int16 v46; // w0\n  unsigned __int8 v47; // w9\n  unsigned __int8 *v48; // x21\n  size_t v49; // x2\n  __int16 v50; // w9\n  char v51; // w8\n  unsigned __int8 v52; // w9\n  __int64 v53; // x10\n  unsigned int v54; // w11\n  unsigned __int16 v55; // w14\n  __int64 v56; // x0\n  unsigned int v57; // w12\n  unsigned int v58; // w14\n  _BYTE *v59; // x13\n  unsigned int v60; // w21\n  char v61; // w23\n  __int16 v62; // w0\n  unsigned int v63; // w8\n  char v64; // w20\n  int v65; // w0\n  __int64 v66; // x8\n  __int64 *v67; // x11\n  __int64 v68; // x0\n  __int64 v69; // x0\n  __int64 v70; // x0\n  __int64 v71; // x0\n  __int64 v72; // x0\n  __int64 v73; // x0\n  __int64 v74; // x0\n  __int64 v75; // x0\n  __int64 v76; // x0\n  __int64 v77; // x0\n  __int64 v78; // x0\n  __int64 v79; // x0\n  __int64 v80; // x0\n  __int64 v81; // x0\n  __int64 v82; // x0\n  __int64 v83; // x0\n  __int64 v84; // x0\n  __int64 v85; // x0\n  __int64 v86; // x0\n  __int64 v87; // x0\n  __int64 v88; // x21\n  __int64 v89; // x22\n  unsigned __int64 i; // x25\n  unsigned __int64 v91; // x0\n  __int64 (__fastcall *v92)(__int64); // x8\n  unsigned __int64 v93; // x28\n  int v94; // w23\n  char v95; // w24\n  __int64 v96; // x0\n  char v97; // w9\n  int v98; // w22\n  size_t v99; // x0\n  int v100; // [xsp+Ch] [xbp-44h]\n  signed int v101; // [xsp+10h] [xbp-40h]\n  __int64 *v102; // [xsp+28h] [xbp-28h] BYREF\n  void *ptr; // [xsp+30h] [xbp-20h]\n  __int128 v104; // [xsp+38h] [xbp-18h]\n  __int64 v105; // [xsp+48h] [xbp-8h]\n\n  v105 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x260c96c*/\n  if ( a2 == nullptr ) /*0x260c970*/\n    return 0; /*0x260c970*/\n  v9 = a9; /*0x260c974*/\n  v10 = *((_DWORD *)a2 + 9); /*0x260c978*/\n  v11 = s; /*0x260c97c*/\n  if ( (a4 & 1) == 0 ) /*0x260c984*/\n  {\n    *a9 = v10 + 29; /*0x260c9d8*/\n    if ( v10 + 29 > a8 ) /*0x260c9dc*/\n      return 0; /*0x260c9dc*/\n    memset(s, c: 0, n: (unsigned int)(v10 + 29)); /*0x260ca0c*/\n    v22 = *(_WORD *)(v11 + 5); /*0x260ca10*/\n    v23 = *(_DWORD *)(v11 + 11); /*0x260ca18*/\n    *(_WORD *)(v11 + 1) = 2072; /*0x260ca1c*/\n    v24 = *a9; /*0x260ca2c*/\n    *(_WORD *)(v11 + 15) = 0; /*0x260ca38*/\n    *(_WORD *)(v11 + 5) = v22 & 0xFFE0 | 1; /*0x260ca3c*/\n    v25 = *((unsigned __int8 *)a2 + 3); /*0x260ca40*/\n    *(_WORD *)(v11 + 3) = v24; /*0x260ca44*/\n    *(_DWORD *)(v11 + 7) = a6; /*0x260ca4c*/\n    if ( v25 == 1 ) /*0x260ca54*/\n      v26 = 33; /*0x260ca54*/\n    else\n      v26 = 65; /*0x260ca54*/\n    *(_DWORD *)(v11 + 11) = v23 & 0xFFFFFF; /*0x260ca60*/\n    if ( v25 == 2 ) /*0x260ca64*/\n      v27 = 1; /*0x260ca64*/\n    else\n      v27 = v26; /*0x260ca64*/\n    *(_WORD *)(v11 + 5) = v27; /*0x260ca6c*/\n    v28 = *((unsigned __int8 *)a2 + 5) << 16; /*0x260ca78*/\n    *(_DWORD *)(v11 + 11) = (unsigned __int16)v23 | v28; /*0x260ca7c*/\n    v29 = *(_DWORD *)(v11 + 17); /*0x260ca88*/\n    *(_DWORD *)(v11 + 11) = v28 | (*((unsigned __int8 *)a2 + 6) << 8); /*0x260ca8c*/\n    *(_DWORD *)(v11 + 17) = v29 & 0xFFFFFF; /*0x260ca98*/\n    *v11 = 85; /*0x260caa0*/\n    *(_DWORD *)(v11 + 17) = (unsigned __int16)v29 | (*((unsigned __int8 *)a2 + 7) << 16); /*0x260caac*/\n    ReceiverIndex = dji::core::dji_cmd_req_header::GetReceiverIndex(this: a2); /*0x260cab0*/\n    *(_WORD *)(v11 + 21) = a3; /*0x260cac0*/\n    *(_WORD *)(v11 + 17) = ReceiverIndex << 8; /*0x260cac4*/\n    v31 = calc_crc8(a1: v11, a2: 23); /*0x260cac8*/\n    v32 = *(unsigned __int8 *)a2; /*0x260cacc*/\n    v33 = *((unsigned __int8 *)a2 + 1); /*0x260cad0*/\n    v11[23] = v31; /*0x260cad4*/\n    if ( v32 == 1 ) /*0x260cadc*/\n    {\n      v34 = *((unsigned __int8 *)a2 + 2) | (unsigned __int16)(v33 << 8); /*0x260cae4*/\n      v11[24] = 0xFFu; /*0x260caec*/\n      *(_WORD *)(v11 + 25) = v34; /*0x260caf0*/\n      v35 = *((unsigned int *)a2 + 9); /*0x260caf4*/\n      if ( (_DWORD)v35 == 0 ) /*0x260caf8*/\n      {\nLABEL_24:\n        v45 = *(unsigned __int16 *)(v11 + 3); /*0x260cbc8*/\n        if ( (unsigned int)(v45 - 8193) >= 0xFFFFE01B ) /*0x260cbdc*/\n        {\n          v46 = calc_crc16(a1: v11, a2: (unsigned int)(v45 - 2)); /*0x260cbec*/\n          v11[(unsigned int)(v45 - 2)] = v46; /*0x260cbf8*/\n          v11[v45 - 1] = HIBYTE(v46); /*0x260cbfc*/\n        }\n        return 1; /*0x260cc00*/\n      }\n    }\n    else\n    {\n      v44 = *((unsigned __int8 *)a2 + 2); /*0x260cba8*/\n      v11[24] = v33; /*0x260cbac*/\n      *(_WORD *)(v11 + 25) = v44; /*0x260cbb0*/\n      v35 = *((unsigned int *)a2 + 9); /*0x260cbb4*/\n      if ( (_DWORD)v35 == 0 ) /*0x260cbb8*/\n        goto LABEL_24; /*0x260cbb8*/\n    }\n    memcpy(dest: v11 + 27, src: *((const void **)a2 + 5), n: v35); /*0x260cbc4*/\n    goto LABEL_24; /*0x260cbc4*/\n  }\n  v13 = v10 + 13; /*0x260c988*/\n  if ( v10 + 13 > a8 ) /*0x260c990*/\n    return 0; /*0x260c990*/\n  if ( (a5 & 1) == 0 ) /*0x260c994*/\n  {\n    v15 = this; /*0x260cb00*/\n    v16 = a6; /*0x260cb04*/\n    v17 = a5; /*0x260cb08*/\n    v14 = v13; /*0x260cb0c*/\n    goto LABEL_19; /*0x260cb0c*/\n  }\n  v14 = v13; /*0x260c998*/\n  if ( v13 + 8LL > (unsigned __int64)a8 ) /*0x260c9a4*/\n    return 0; /*0x260c9f0*/\n  v15 = this; /*0x260c9ac*/\n  v16 = a6; /*0x260c9b0*/\n  *(_WORD *)s = -13227; /*0x260c9b4*/\n  v17 = a5; /*0x260c9b8*/\n  v18 = *((_WORD *)a2 + 7); /*0x260c9bc*/\n  *((_DWORD *)s + 1) = v13; /*0x260c9c0*/\n  *((_WORD *)s + 1) = v18; /*0x260c9c4*/\n  v11 = s + 8; /*0x260c9c8*/\nLABEL_19:\n  memset(s: v11, c: 0, n: v14); /*0x260cb10*/\n  *v11 = 85; /*0x260cb30*/\n  *(_WORD *)(v11 + 1) = v13 & 0x3FF | 0x400; /*0x260cb34*/\n  v36 = calc_crc8(a1: v11, a2: 3); /*0x260cb38*/\n  v37 = *((_BYTE *)a2 + 5); /*0x260cb3c*/\n  v38 = *((_WORD *)v11 + 2); /*0x260cb40*/\n  v11[3] = v36; /*0x260cb44*/\n  v39 = v38 & 0xFFE0 | v37 & 0x1F; /*0x260cb4c*/\n  *((_WORD *)v11 + 2) = v39; /*0x260cb50*/\n  v40 = v39 & 0xFF1F | (32 * (*((_BYTE *)a2 + 6) & 7)); /*0x260cb58*/\n  *((_WORD *)v11 + 2) = v40; /*0x260cb5c*/\n  *((_WORD *)v11 + 2) = v40 & 0xE0FF | ((*((_BYTE *)a2 + 7) & 0x1F) << 8); /*0x260cb70*/\n  v41 = dji::core::dji_cmd_req_header::GetReceiverIndex(this: a2); /*0x260cb74*/\n  v42 = *((_WORD *)v11 + 2); /*0x260cb78*/\n  *((_WORD *)v11 + 3) = v16; /*0x260cb7c*/\n  *((_WORD *)v11 + 2) = v42 & 0x1FFF | (v41 << 13); /*0x260cb84*/\n  if ( *(_BYTE *)v15 != 0 && *((_BYTE *)a2 + 1) != 0 ) /*0x260cb94*/\n    v43 = v11[8] & 0xF0 | *((_BYTE *)a2 + 4) & 0xF; /*0x260cba0*/\n  else\n    v43 = v11[8] & 0xF0; /*0x260cc08*/\n  v11[8] = v43; /*0x260cc10*/\n  v11[8] = v43 & 0xEF; /*0x260cc18*/\n  v47 = v43 & 0x8F | (32 * (*((_BYTE *)a2 + 3) & 3)); /*0x260cc24*/\n  v11[8] = v47; /*0x260cc28*/\n  v11[8] = v47 & 0x7F | (*((_BYTE *)a2 + 9) << 7); /*0x260cc38*/\n  *(_WORD *)(v11 + 9) = *(_WORD *)((char *)a2 + 1); /*0x260cc40*/\n  v48 = v11 + 9; /*0x260cc40*/\n  v49 = *((unsigned int *)a2 + 9); /*0x260cc44*/\n  if ( (_DWORD)v49 != 0 ) /*0x260cc48*/\n    memcpy(dest: v11 + 11, src: *((const void **)a2 + 5), n: v49); /*0x260cc54*/\n  v50 = *(_WORD *)(v11 + 1); /*0x260cc5c*/\n  if ( (v43 & 0xF) == 3 ) /*0x260cc64*/\n  {\n    v51 = v17; /*0x260cc70*/\n    if ( (v50 & 0x3FCu) >= 0xC ) /*0x260cc74*/\n    {\n      v52 = atomic_load((unsigned __int8 *)&byte_282A608); /*0x260cc80*/\n      if ( (v52 & 1) == 0 ) /*0x260cc84*/\n      {\n        v64 = v17; /*0x260cda8*/\n        v65 = _cxa_guard_acquire(a1: (__guard *)&byte_282A608); /*0x260cdac*/\n        v51 = v17; /*0x260cdb0*/\n        if ( v65 != 0 ) /*0x260cdb4*/\n        {\n          v101 = v10 + 13; /*0x260cdb8*/\n          v100 = v10; /*0x260cdc4*/\n          v102 = off_27652D0 + 2; /*0x260cddc*/\n          ptr = calloc(nmemb: 1u, size: 0x17u); /*0x260cde8*/\n          v104 = xmmword_B66D60; /*0x260cdf0*/\n          XsBuffer<char>::capacity(this: (XsBuffer<char> *)&v102, size: 0x17u); /*0x260cdfc*/\n          v66 = *((_QWORD *)&v104 + 1); /*0x260ce00*/\n          v67 = v102; /*0x260ce04*/\n          ++*((_QWORD *)&v104 + 1); /*0x260ce0c*/\n          *((_BYTE *)ptr + v66) = -12; /*0x260ce14*/\n          v68 = ((__int64 (__fastcall *)(__int64 **, __int64))v67[4])(a1: &v102, a2: 192); /*0x260ce24*/\n          v69 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v68 + 32LL))(a1: v68, a2: 155); /*0x260ce34*/\n          v70 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v69 + 32LL))(a1: v69, a2: 223); /*0x260ce44*/\n          v71 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v70 + 32LL))(a1: v70, a2: 246); /*0x260ce54*/\n          v72 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v71 + 32LL))(a1: v71, a2: 50); /*0x260ce64*/\n          v73 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v72 + 32LL))(a1: v72, a2: 222); /*0x260ce74*/\n          v74 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v73 + 32LL))(a1: v73, a2: 142); /*0x260ce84*/\n          v75 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v74 + 32LL))(a1: v74, a2: 184); /*0x260ce94*/\n          v76 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v75 + 32LL))(a1: v75, a2: 78); /*0x260cea4*/\n          v77 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v76 + 32LL))(a1: v76, a2: 203); /*0x260ceb4*/\n          v78 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v77 + 32LL))(a1: v77, a2: 236); /*0x260cec4*/\n          v79 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v78 + 32LL))(a1: v78, a2: 27); /*0x260ced4*/\n          v80 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v79 + 32LL))(a1: v79, a2: 174); /*0x260cee4*/\n          v81 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v80 + 32LL))(a1: v80, a2: 52); /*0x260cef4*/\n          v82 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v81 + 32LL))(a1: v81, a2: 45); /*0x260cf04*/\n          v83 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v82 + 32LL))(a1: v82, a2: 126); /*0x260cf14*/\n          v84 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v83 + 32LL))(a1: v83, a2: 203); /*0x260cf24*/\n          v85 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v84 + 32LL))(a1: v84, a2: 93); /*0x260cf34*/\n          v86 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v85 + 32LL))(a1: v85, a2: 36); /*0x260cf44*/\n          v87 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v86 + 32LL))(a1: v86, a2: 216); /*0x260cf54*/\n          v88 = (*(__int64 (__fastcall **)(__int64, __int64))(*(_QWORD *)v87 + 32LL))(a1: v87, a2: 232); /*0x260cf6c*/\n          v89 = 0; /*0x260cf70*/\n          for ( i = 0; ; ++i ) /*0x260cf74*/\n          {\n            v91 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v88 + 56LL))(a1: v88); /*0x260cf90*/\n            v92 = *(__int64 (__fastcall **)(__int64))(*(_QWORD *)v88 + 48LL); /*0x260cf9c*/\n            if ( i >= v91 ) /*0x260cfa0*/\n              break; /*0x260cfa0*/\n            v93 = *(unsigned __int8 *)(v92(a1: v88) + i); /*0x260cfb0*/\n            v94 = *(unsigned __int8 *)((*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v88 + 48LL))(a1: v88) + i); /*0x260cfc8*/\n            v95 = *((_BYTE *)&qword_B227C0 + i + -17 * (i / 0x11)); /*0x260cfd8*/\n            v96 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v88 + 40LL))(a1: v88); /*0x260cfe4*/\n            v97 = v89-- & 7; /*0x260cfec*/\n            *(_BYTE *)(v96 + i) = v95 ^ ((v94 << v97) | (v93 >> (i & 7))); /*0x260d004*/\n          }\n          v98 = v92(a1: v88); /*0x260d01c*/\n          v99 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v88 + 56LL))(a1: v88); /*0x260d028*/\n          sub_15EF6B0(a1: (int)&byte_282A610, a2: v98, n: v99); /*0x260d03c*/\n          v102 = off_27652D0 + 2; /*0x260d050*/\n          free(ptr); /*0x260d054*/\n          _cxa_atexit(lpfunc: (void (*)(void *))off_2755428, obj: &byte_282A610, lpdso_handle: &off_26520F0); /*0x260d074*/\n          _cxa_guard_release(a1: (__guard *)&byte_282A608); /*0x260d07c*/\n          v48 = v11 + 9; /*0x260d080*/\n          v51 = v64; /*0x260d084*/\n          v9 = a9; /*0x260d088*/\n          v10 = v100; /*0x260d08c*/\n          v13 = v101; /*0x260d090*/\n        }\n      }\n      v50 = *(_WORD *)(v11 + 1); /*0x260cc88*/\n      v53 = 0; /*0x260cc9c*/\n      v54 = 0; /*0x260cca8*/\n      if ( (v50 & 0x3FEu) <= 0xD ) /*0x260ccb8*/\n        v55 = 0; /*0x260ccb8*/\n      else\n        v55 = (v50 & 0x3FF) - 13; /*0x260ccb8*/\n      v56 = v55; /*0x260ccc4*/\n      v57 = *((unsigned __int16 *)v11 + 3); /*0x260ccc8*/\n      if ( (byte_282A610 & 1) != 0 ) /*0x260cccc*/\n        v58 = dword_282A618; /*0x260cccc*/\n      else\n        v58 = (unsigned __int64)(unsigned __int8)byte_282A610 >> 1; /*0x260cccc*/\n      if ( (byte_282A610 & 1) != 0 ) /*0x260ccd0*/\n        v59 = (_BYTE *)qword_282A620; /*0x260ccd0*/\n      else\n        v59 = algn_282A611; /*0x260ccd0*/\n      do /*0x260cd10*/\n      {\n        v54 = v53 & 0xF ^ (v54 + 1); /*0x260cce4*/\n        if ( v54 > v58 ) /*0x260ccf0*/\n          v54 = 0; /*0x260ccf0*/\n        v48[v53] ^= v59[v54] ^ (unsigned __int8)(v57 >> (8 * (v53 & 1))); /*0x260cd04*/\n        ++v53; /*0x260cd08*/\n      }\n      while ( v56 + 2 != v53 ); /*0x260cd10*/\n    }\n    v60 = v50 & 0x3FF; /*0x260cd14*/\n    if ( v60 < 0xC ) /*0x260cd1c*/\n      goto LABEL_46; /*0x260cd1c*/\n  }\n  else\n  {\n    v51 = v17; /*0x260cd8c*/\n    v60 = v50 & 0x3FF; /*0x260cd90*/\n    if ( v60 < 0xC ) /*0x260cd98*/\n      goto LABEL_46; /*0x260cd98*/\n  }\n  v61 = v51; /*0x260cd28*/\n  v62 = calc_crc16(a1: v11, a2: v60 - 2); /*0x260cd30*/\n  v51 = v61; /*0x260cd3c*/\n  v11[v60 - 2] = v62; /*0x260cd40*/\n  v11[v60 - 1] = HIBYTE(v62); /*0x260cd44*/\nLABEL_46:\n  if ( (v51 & 1) != 0 ) /*0x260cd50*/\n    v63 = v10 + 21; /*0x260cd50*/\n  else\n    v63 = v13; /*0x260cd50*/\n  *v9 = v63; /*0x260cd54*/\n  return 1; /*0x260cd88*/\n}",
+  "refs": [
+    {
+      "addr": "0x261daf0",
+      "name": "memset"
+    },
+    {
+      "addr": "0x2629f50",
+      "name": "_ZNK3dji4core18dji_cmd_req_header16GetReceiverIndexEv"
+    },
+    {
+      "addr": "0x2647e80",
+      "name": "calc_crc8"
+    },
+    {
+      "addr": "0x262ad60",
+      "name": "calc_crc16"
+    },
+    {
+      "addr": "0x261d920",
+      "name": "memcpy"
+    },
+    {
+      "addr": "0x282a608",
+      "name": "byte_282A608"
+    },
+    {
+      "addr": "0x2620340",
+      "name": "__cxa_guard_acquire"
+    },
+    {
+      "addr": "0x27652d0",
+      "name": "off_27652D0"
+    },
+    {
+      "addr": "0x262a380",
+      "name": "calloc"
+    },
+    {
+      "addr": "0xb66d60",
+      "name": "xmmword_B66D60"
+    },
+    {
+      "addr": "0x264dbb0",
+      "name": "j__ZN8XsBufferIcE8capacityEm"
+    },
+    {
+      "addr": "0xb227c0",
+      "name": "qword_B227C0"
+    },
+    {
+      "addr": "0x15ef6b0",
+      "name": "sub_15EF6B0"
+    },
+    {
+      "addr": "0x282a610",
+      "name": "byte_282A610"
+    },
+    {
+      "addr": "0x261d9a0",
+      "name": "free"
+    },
+    {
+      "addr": "0x261d720",
+      "name": "__cxa_atexit"
+    },
+    {
+      "addr": "0x2755428",
+      "name": "off_2755428"
+    },
+    {
+      "addr": "0x26520f0",
+      "name": "off_26520F0"
+    },
+    {
+      "addr": "0x2620350",
+      "name": "__cxa_guard_release"
+    },
+    {
+      "addr": "0x282a618",
+      "name": "dword_282A618"
+    },
+    {
+      "addr": "0x282a620",
+      "name": "qword_282A620"
+    },
+    {
+      "addr": "0x282a611",
+      "name": "algn_282A611"
+    }
+  ]
+}

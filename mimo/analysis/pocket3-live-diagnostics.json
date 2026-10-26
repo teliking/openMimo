@@ -1,0 +1,203 @@
+{
+  "timestamp_ms": 1792915323851,
+  "status": {
+    "ok": true,
+    "data": {
+      "address": "192.168.2.1:9004",
+      "connection": "connected",
+      "hardware_validation": "pending",
+      "last_error": "",
+      "properties": {
+        "cam_expo_param": {
+          "decoded": {
+            "EVCode": 15,
+            "EVThirds": -1,
+            "Mode": 1,
+            "EffectiveISO": 760,
+            "Raw": "AAAAAAAADwEAAAAHAsgAD\/gCAABkgAAAAAAAAGQAAAAB2AACZAAAAAEBAAA="
+          },
+          "name": "cam_expo_param",
+          "transaction": 16752,
+          "value_hex": "0000000000000f010000000702c8000ff802000064800000000000006400000001d800026400000001010000"
+        },
+        "cam_image_effect": {
+          "decoded": {
+            "ColorProfile": 61,
+            "WhiteBalanceMode": 0,
+            "Kelvin": null,
+            "Raw": "AAA9AAAsBgwAAC4AAAAB\/w=="
+          },
+          "name": "cam_image_effect",
+          "transaction": 16749,
+          "value_hex": "00003d00002c060c00002e00000001ff"
+        },
+        "cam_lapse_param": {
+          "decoded": {
+            "Output": 0,
+            "IntervalTenths": 0,
+            "DurationSeconds": 0,
+            "SpeedA": 0,
+            "SpeedB": 0,
+            "Raw": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          },
+          "name": "cam_lapse_param",
+          "transaction": 16754,
+          "value_hex": "000000000000000000000000000000000000000000"
+        },
+        "cam_lens_state": {
+          "decoded": {
+            "RawFocus": 178,
+            "FocusMode": 2,
+            "Raw": "sgD\/\/z4A\/\/8+ANkAsgHZAAAABhIHEhgCagZ9BAEAAAAAAAAAAAAAZwEAAGcBAAA="
+          },
+          "name": "cam_lens_state",
+          "transaction": 16746,
+          "value_hex": "b200ffff3e00ffff3e00d900b201d90000000612071218026a067d0401000000000000000000006701000067010000"
+        },
+        "cam_motionlapse_params": {
+          "decoded": {
+            "Direction": 0,
+            "RawPreview": 0,
+            "WaypointCount": 0,
+            "Raw": "AQQAAAQAAAA="
+          },
+          "name": "cam_motionlapse_params",
+          "transaction": 16751,
+          "value_hex": "0104000004000000"
+        },
+        "cam_pano_params": {
+          "decoded": {
+            "Type": 2,
+            "Format": 0,
+            "Raw": "AgAA"
+          },
+          "name": "cam_pano_params",
+          "transaction": 16748,
+          "value_hex": "020000"
+        },
+        "cam_photo_param": {
+          "decoded": {
+            "Frame": 0,
+            "Format": 0,
+            "CountdownSeconds": 0,
+            "Raw": "AAAAAAAAAAAAAAAAAQ=="
+          },
+          "name": "cam_photo_param",
+          "transaction": 16753,
+          "value_hex": "00000000000000000000000001"
+        },
+        "cam_sensor_aspect_ratio": {
+          "decoded": {
+            "Code": 0,
+            "Raw": "AA=="
+          },
+          "name": "cam_sensor_aspect_ratio",
+          "transaction": 16750,
+          "value_hex": "00"
+        },
+        "cam_video_param_v2": {
+          "decoded": {
+            "Resolution": 16,
+            "FrameRate": 6,
+            "SpeedRatioFlag": 0,
+            "Compression": 1,
+            "Raw": "EAYAAAACAQABAQ=="
+          },
+          "name": "cam_video_param_v2",
+          "transaction": 16747,
+          "value_hex": "10060000000201000101"
+        }
+      },
+      "script": "idle",
+      "target": "Pocket 3 \/ HG212"
+    }
+  },
+  "telemetry": {
+    "camera": {
+      "Raw": 1,
+      "Recording": false,
+      "Transition": false,
+      "Details": {
+        "VideoLike": true,
+        "StorageTotalMiB": 243883,
+        "StorageFreeMiB": 189576,
+        "RemainingSeconds": 13051,
+        "ElapsedSeconds": 0,
+        "Mode": 1
+      }
+    },
+    "gimbal": {
+      "Pitch": 178.9,
+      "Roll": 0.7,
+      "Yaw": 0,
+      "Extra": "QAAAAAABlWUYAAAAAAAAAAAAfmfHO135fz9eFxO8HiMXvAAAAAABAAAAAA=="
+    },
+    "storage": {
+      "Count": 1,
+      "TotalMiB": 243883,
+      "FreeMiB": 189576
+    },
+    "battery": {
+      "Percent": 98,
+      "Charging": false,
+      "RawCharging": 0
+    },
+    "link": {
+      "healthy": true,
+      "stats": {
+        "SessionID": 22417,
+        "BaseSequence": 26216,
+        "CameraChannel": 4744,
+        "NextTx": 28160,
+        "Window": {
+          "RxType2": 4864,
+          "RxType3": 28136,
+          "PeerAckTx": 28152,
+          "LastTx": 28152
+        },
+        "LastInbound": "2026-10-25T08:02:03.687815842Z",
+        "LastProbeReply": "2026-10-25T08:02:03.480432765Z",
+        "Pending": 0,
+        "Malformed": 0,
+        "ForeignSession": 0,
+        "DroppedEvents": 93
+      }
+    }
+  },
+  "property_reads": [
+    {
+      "operation": "observe-property",
+      "request": {
+        "name": "cam_video_param_v2"
+      },
+      "response": {
+        "ok": true,
+        "data": {
+          "decoded": {
+            "Resolution": 16,
+            "FrameRate": 6,
+            "SpeedRatioFlag": 0,
+            "Compression": 1,
+            "Raw": "EAYAAAACAQABAQ=="
+          },
+          "name": "cam_video_param_v2",
+          "received_at": "2026-10-25T08:01:51.690429072Z",
+          "request_correlated": false,
+          "source": "live-push",
+          "transaction": 16475,
+          "value_hex": "10060000000201000101"
+        }
+      }
+    },
+    {
+      "operation": "observe-property",
+      "request": {
+        "name": "camcap_video_format"
+      },
+      "response": {
+        "ok": false,
+        "error": "camcap_video_format: context deadline exceeded"
+      }
+    }
+  ]
+}

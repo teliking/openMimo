@@ -1,0 +1,62 @@
+{
+  "addr": "0x1cd4894",
+  "code": "long double __usercall dji::core::dji_topic_data_base<dji_topic_camera_capability_video_format,dji_camera_camcap_video_format_rsp>::get_topic@<Q0>(\n        __int64 a1@<X8>)\n{\n  unsigned __int8 v3; // w9\n  int *v4; // x20\n  __int64 v5; // x8\n  long double result; // q0\n  __int64 v7; // x8\n\n  v3 = atomic_load(off_2757B70); /*0x1cd48ac*/\n  if ( (v3 & 1) == 0 && _cxa_guard_acquire(a1: off_2757B70) != 0 ) /*0x1cd4940*/\n  {\n    dji_topic_camera_capability_video_format::dji_topic_camera_capability_video_format(this: (dji_topic_camera_capability_video_format *)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1}); /*0x1cd494c*/\n    _cxa_atexit( /*0x1cd4968*/\n      lpfunc: (void (*)(void *))off_2756B38,\n      obj: `typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1},\n      lpdso_handle: &off_26520F0);\n    _cxa_guard_release(a1: off_2757B70); /*0x1cd4974*/\n  }\n  v4 = `typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1}; /*0x1cd48b8*/\n  if ( (*(_BYTE *)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1} /*0x1cd48c0*/\n      & 1) != 0 )\n  {\n    std::string::__init_copy_ctor_external( /*0x1cd4904*/\n      this: (std::string *)a1,\n      a2: *((const char **)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1}\n      + 2),\n      a3: *((_QWORD *)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1}\n      + 1));\n    if ( (*((_BYTE *)&qword_18 + (_QWORD)v4) & 1) != 0 ) /*0x1cd490c*/\n      goto LABEL_4; /*0x1cd490c*/\n  }\n  else\n  {\n    v5 = *(_QWORD *)((char *)&word_10 /*0x1cd48c8*/\n                   + (_QWORD)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1});\n    *(_OWORD *)a1 = *(_OWORD *)`typeinfo for'bool dji::sdk::BaseAbstraction::ObserverTopic<dji::core::dji_topic_data_camera_cam_video_format>(dji::core::HostId const&,std::function<void ()(dji::core::dji_topic_data_rsp const*)> const&)::{lambda(unsigned long,std::string const&,unsigned short,dji::core::HostId const&,dji::core::dji_topic_data_rsp const*)#1}; /*0x1cd48cc*/\n    *(_QWORD *)(a1 + 16) = v5; /*0x1cd48d0*/\n    if ( (*((_BYTE *)&qword_18 + (_QWORD)v4) & 1) != 0 ) /*0x1cd48d8*/\n    {\nLABEL_4:\n      std::string::__init_copy_ctor_external( /*0x1cd48dc*/\n        this: (std::string *)(a1 + 24),\n        a2: *(const char **)((char *)&qword_20 + (_QWORD)v4 + 8),\n        a3: *(__int64 *)((char *)&qword_20 + (_QWORD)v4));\n      *(_DWORD *)(a1 + 48) = *(int *)((char *)&dword_30 + (_QWORD)v4); /*0x1cd48ec*/\n      return result; /*0x1cd48f8*/\n    }\n  }\n  result = *(long double *)((char *)&qword_18 + (_QWORD)v4); /*0x1cd4910*/\n  v7 = *(__int64 *)((char *)&qword_28 + (_QWORD)v4); /*0x1cd4914*/\n  *(long double *)(a1 + 24) = result; /*0x1cd4918*/\n  *(_QWORD *)(a1 + 40) = v7; /*0x1cd491c*/\n  *(_DWORD *)(a1 + 48) = *(int *)((char *)&dword_30 + (_QWORD)v4); /*0x1cd4924*/\n  return result; /*0x1cd48f8*/\n}",
+  "refs": [
+    {
+      "addr": "0x2757b70",
+      "name": "off_2757B70"
+    },
+    {
+      "addr": "0x262e6c0",
+      "name": "j__ZN40dji_topic_camera_capability_video_formatC2Ev"
+    },
+    {
+      "addr": "0x2757b78",
+      "name": "_ZTIZN3dji3sdk15BaseAbstraction13ObserverTopicINS_4core38dji_topic_data_camera_cam_video_formatEEEbRKNS3_6HostIdERKNSt6__ndk18functionIFvPKNS3_18dji_topic_data_rspEEEEEUlmRKNS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEtS7_SC_E__0"
+    },
+    {
+      "addr": "0x261d720",
+      "name": "__cxa_atexit"
+    },
+    {
+      "addr": "0x2756b38",
+      "name": "off_2756B38"
+    },
+    {
+      "addr": "0x26520f0",
+      "name": "off_26520F0"
+    },
+    {
+      "addr": "0x2620350",
+      "name": "__cxa_guard_release"
+    },
+    {
+      "addr": "0x2620340",
+      "name": "__cxa_guard_acquire"
+    },
+    {
+      "addr": "0x261da60",
+      "name": "j__ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm"
+    },
+    {
+      "addr": "0x18",
+      "name": "qword_18"
+    },
+    {
+      "addr": "0x10",
+      "name": "word_10"
+    },
+    {
+      "addr": "0x20",
+      "name": "qword_20"
+    },
+    {
+      "addr": "0x30",
+      "name": "dword_30"
+    },
+    {
+      "addr": "0x28",
+      "name": "qword_28"
+    }
+  ]
+}

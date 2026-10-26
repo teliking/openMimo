@@ -1,0 +1,35 @@
+{
+  "database_input": "libdjisdk_jni-static-restored.so",
+  "source_apk_sha256": "877cce18fb21cbdb6e025965e7eab4b06d823675428f61b14f641b719454c2a2",
+  "registrations": [
+    {
+      "setter": "0x1c2068c",
+      "xrefs": [
+        {
+          "addr": "0x1df715c",
+          "type": "data",
+          "fn": {
+            "addr": "0x1df58bc",
+            "name": "_ZN3dji3sdk3key14HG212CameraAbs9WillSetupEv",
+            "size": "0x4d04"
+          }
+        }
+      ]
+    },
+    {
+      "setter": "0x1c1f3d4",
+      "xrefs": [
+        {
+          "addr": "0x1df70c4",
+          "type": "data",
+          "fn": {
+            "addr": "0x1df58bc",
+            "name": "_ZN3dji3sdk3key14HG212CameraAbs9WillSetupEv",
+            "size": "0x4d04"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "HG212 registration references; full WillSetup decompilation is tool-truncated."
+}

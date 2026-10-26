@@ -1,0 +1,10 @@
+{
+  "addr": "0x14f9484",
+  "code": "__int64 __fastcall dji::sdk::SDKCameraUtility::FrameRateProtocolTypeToSDKType(__int64 result)\n{\n  if ( (unsigned int)result <= 0x17 && ((0x9FFFFFu >> result) & 1) != 0 ) /*0x14f9494*/\n    return (unsigned int)dword_BDC054[(unsigned int)result]; /*0x14f94a0*/\n  return result; /*0x14f94a4*/\n}",
+  "refs": [
+    {
+      "addr": "0xbdc054",
+      "name": "dword_BDC054"
+    }
+  ]
+}

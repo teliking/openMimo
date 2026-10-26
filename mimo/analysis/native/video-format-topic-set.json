@@ -1,0 +1,151 @@
+{
+  "addr": "0x1c2068c",
+  "code": "__int64 __fastcall VideoResolutionFrameRateAndSpeedRatioSet(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        int a5,\n        int a6,\n        int a7,\n        int a8,\n        int a9,\n        char a10,\n        int a11,\n        int a12,\n        char a13,\n        int a14,\n        char a15)\n{\n  _WORD *v19; // x0\n  std::__shared_weak_count *v20; // x8\n  _WORD *v21; // x23\n  char v22; // w8\n  __int64 v23; // x0\n  unsigned __int8 v24; // w0\n  unsigned int v25; // w8\n  plog *v26; // x0\n  plog *LoggerInstance; // x0\n  long double v28; // q0\n  const char *v29; // x8\n  const char *v30; // x23\n  int v31; // w0\n  int v32; // w3\n  int v33; // w4\n  int v34; // w5\n  int v35; // w6\n  int v36; // w7\n  int v37; // w3\n  int v38; // w4\n  int v39; // w5\n  int v40; // w6\n  int v41; // w7\n  int v42; // w3\n  int v43; // w4\n  int v44; // w5\n  int v45; // w6\n  int v46; // w7\n  int v47; // w3\n  int v48; // w4\n  int v49; // w5\n  int v50; // w6\n  int v51; // w7\n  plog *v52; // x0\n  plog::Logger<0> *v53; // x0\n  __int64 v54; // x9\n  __int64 v55; // x10\n  std::__shared_weak_count *v56; // x8\n  unsigned int v57; // w19\n  _QWORD *v58; // x0\n  __int64 v59; // x8\n  _QWORD *v60; // x0\n  __int64 v61; // x8\n  std::__shared_weak_count *v62; // x20\n  std::__shared_weak_count *v63; // x20\n  int v65; // [xsp+0h] [xbp-260h]\n  int v66; // [xsp+0h] [xbp-260h]\n  int v67; // [xsp+0h] [xbp-260h]\n  int v68; // [xsp+0h] [xbp-260h]\n  const void *v69; // [xsp+8h] [xbp-258h] BYREF\n  std::__shared_weak_count *v70; // [xsp+10h] [xbp-250h]\n  unsigned __int8 v71[2]; // [xsp+18h] [xbp-248h] BYREF\n  char v72; // [xsp+1Ah] [xbp-246h]\n  __int16 v73; // [xsp+1Bh] [xbp-245h]\n  void *v74; // [xsp+20h] [xbp-240h]\n  std::__shared_weak_count *v75; // [xsp+28h] [xbp-238h]\n  _QWORD v76[6]; // [xsp+30h] [xbp-230h] BYREF\n  _QWORD v77[2]; // [xsp+60h] [xbp-200h] BYREF\n  __int64 v78; // [xsp+70h] [xbp-1F0h] BYREF\n  char *v79; // [xsp+78h] [xbp-1E8h] BYREF\n  char v80; // [xsp+B8h] [xbp-1A8h]\n  void *v81; // [xsp+C8h] [xbp-198h]\n  _BYTE v82[184]; // [xsp+E0h] [xbp-180h] BYREF\n  void *v83; // [xsp+198h] [xbp-C8h]\n  char v84; // [xsp+1A0h] [xbp-C0h]\n  void *v85; // [xsp+1B0h] [xbp-B0h]\n  _BYTE v86[32]; // [xsp+1C0h] [xbp-A0h] BYREF\n  _BYTE v87[16]; // [xsp+1E0h] [xbp-80h] BYREF\n  _QWORD v88[4]; // [xsp+1F0h] [xbp-70h] BYREF\n  _QWORD *v89; // [xsp+210h] [xbp-50h]\n  _QWORD v90[4]; // [xsp+220h] [xbp-40h] BYREF\n  _QWORD *v91; // [xsp+240h] [xbp-20h]\n  __int64 v92; // [xsp+258h] [xbp-8h]\n\n  v92 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1c206b4*/\n  if ( *(_QWORD *)a3 == 0 ) /*0x1c206bc*/\n    return (unsigned int)-6; /*0x1c206bc*/\n  v19 = _dynamic_cast( /*0x1c206e8*/\n          lpsrc: *(const void **)a3,\n          lpstype: (const __class_type_info *)off_2754AA0,\n          lpdtype: (const __class_type_info *)off_2763230,\n          s2d: 0);\n  if ( v19 == nullptr ) /*0x1c206ec*/\n    return (unsigned int)-6; /*0x1c20980*/\n  v20 = *(std::__shared_weak_count **)(a3 + 8); /*0x1c206f0*/\n  v21 = v19; /*0x1c206f4*/\n  v74 = v19; /*0x1c206f8*/\n  v75 = v20; /*0x1c206f8*/\n  if ( v20 != nullptr ) /*0x1c206fc*/\n    sub_2619930(a1: 1, a2: (char *)v20 + 8); /*0x1c20708*/\n  v22 = v21[12]; /*0x1c2070c*/\n  v23 = *((unsigned int *)v21 + 4); /*0x1c20710*/\n  v72 = 0; /*0x1c20714*/\n  *(_WORD *)v71 = 0; /*0x1c20718*/\n  v73 = v22 & 0x3F; /*0x1c20720*/\n  v24 = dji::sdk::SDKCameraUtility::ResolutionSDKTypeToProtocolType(a1: v23); /*0x1c20724*/\n  v25 = *((_DWORD *)v21 + 5); /*0x1c20728*/\n  v71[0] = v24; /*0x1c2072c*/\n  v71[1] = dji::sdk::SDKCameraUtility::FrameRateSDKTypeToProtocolType(a1: v25); /*0x1c20738*/\n  dji::core::dji_cmd_base_req<(unsigned char)1,(unsigned char)2,(unsigned char)24,dji_camera_set_video_format_req,dji_camera_set_video_format_rsp>::dji_cmd_base_req(this: (dji::core::dji_cmd_base_req<(unsigned char)1, (unsigned char)2, (unsigned char)24, dji_camera_set_video_format_req, dji_camera_set_video_format_rsp> *)v86); /*0x1c20744*/\n  v86[2] = 24; /*0x1c20750*/\n  v86[7] = 1; /*0x1c20758*/\n  v86[4] = 3; /*0x1c2075c*/\n  v26 = (plog *)Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v87, a2: v71, a3: 5u); /*0x1c2076c*/\n  LoggerInstance = (plog *)plog::GetLoggerInstance(this: v26); /*0x1c20770*/\n  if ( LoggerInstance != nullptr && *(int *)(plog::GetLoggerInstance(this: LoggerInstance) + 8LL) >= 5 ) /*0x1c20784*/\n  {\n    plog::Record::Record( /*0x1c207ac*/\n      a1: v76,\n      a2: 5,\n      a3: \"int VideoResolutionFrameRateAndSpeedRatioSet(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const Re\"\n      \"sultCodeCallback &)\",\n      a4: 64,\n      a5: &byte_AD1C85,\n      a6: 0);\n    if ( (xmmword_27DDFC0 & 1) != 0 ) /*0x1c207cc*/\n      v29 = (const char *)qword_27DDFD0; /*0x1c207cc*/\n    else\n      v29 = (char *)&xmmword_27DDFC0 + 1; /*0x1c207cc*/\n    if ( v29 != nullptr ) /*0x1c207d4*/\n      v30 = v29; /*0x1c207d4*/\n    else\n      v30 = \"(null)\"; /*0x1c207d4*/\n    v31 = strlen(s: v30); /*0x1c207dc*/\n    sub_108AE98( /*0x1c207ec*/\n      a1: (std::ostream *)&v78,\n      a2: (int)v30,\n      a3: v31,\n      a4: v32,\n      a5: v33,\n      a6: v34,\n      a7: v35,\n      a8: v36,\n      a9: v65,\n      a10: (int)v69,\n      a11: (char)v70);\n    sub_108AE98( /*0x1c20800*/\n      a1: (std::ostream *)&v78,\n      a2: (int)\" set resolution = \",\n      a3: 18,\n      a4: v37,\n      a5: v38,\n      a6: v39,\n      a7: v40,\n      a8: v41,\n      a9: v66,\n      a10: (int)v69,\n      a11: (char)v70);\n    std::ostream::operator<<(a1: &v78, a2: v71[0]); /*0x1c2080c*/\n    sub_108AE98( /*0x1c20820*/\n      a1: (std::ostream *)&v78,\n      a2: (int)\", rate = \",\n      a3: 9,\n      a4: v42,\n      a5: v43,\n      a6: v44,\n      a7: v45,\n      a8: v46,\n      a9: v67,\n      a10: (int)v69,\n      a11: (char)v70);\n    std::ostream::operator<<(a1: &v78, a2: v71[1]); /*0x1c2082c*/\n    sub_108AE98( /*0x1c20840*/\n      a1: (std::ostream *)&v78,\n      a2: (int)\", speed = \",\n      a3: 10,\n      a4: v47,\n      a5: v48,\n      a6: v49,\n      a7: v50,\n      a8: v51,\n      a9: v68,\n      a10: (int)v69,\n      a11: (char)v70);\n    v52 = (plog *)std::ostream::operator<<(a1: &v78, a2: v73 & 0x3F); /*0x1c20850*/\n    v53 = (plog::Logger<0> *)plog::GetLoggerInstance(this: v52); /*0x1c20854*/\n    plog::Logger<0>::operator+=(this: v53, a2: (const plog::Record *)v76); /*0x1c2085c*/\n    v76[0] = (char *)off_2754A00 + 16; /*0x1c20870*/\n    if ( (v84 & 1) != 0 ) /*0x1c20874*/\n      operator delete(a1: v85); /*0x1c2087c*/\n    if ( (v82[168] & 1) != 0 ) /*0x1c20884*/\n      operator delete(a1: v83); /*0x1c2088c*/\n    v54 = *((_QWORD *)off_2754A08 + 8); /*0x1c208a4*/\n    v55 = *((_QWORD *)off_2754A08 + 9); /*0x1c208a4*/\n    v77[0] = *(_QWORD *)off_2754A08; /*0x1c208a8*/\n    *(_QWORD *)((char *)v77 + *(_QWORD *)(v77[0] - 24LL)) = v54; /*0x1c208b0*/\n    v78 = v55; /*0x1c208c4*/\n    v79 = (char *)off_2754A10 + 16; /*0x1c208c4*/\n    if ( (v80 & 1) != 0 ) /*0x1c208c8*/\n      operator delete(a1: v81); /*0x1c208d0*/\n    std::streambuf::~streambuf(this: (std::streambuf *)&v79); /*0x1c208d8*/\n    std::iostream::~iostream(this: (std::iostream *)v77); /*0x1c208e4*/\n    std::ios::~ios(this: (std::ios *)v82); /*0x1c208ec*/\n  }\n  v56 = *(std::__shared_weak_count **)(a3 + 8); /*0x1c208f0*/\n  v69 = *(const void **)a3; /*0x1c208f4*/\n  v70 = v56; /*0x1c208f4*/\n  if ( v56 != nullptr ) /*0x1c208f8*/\n    *(__n128 *)&v28 = sub_2619930(a1: 1, a2: (char *)v56 + 8); /*0x1c20904*/\n  v90[0] = &off_26D4750; /*0x1c20920*/\n  v91 = v90; /*0x1c20924*/\n  v89 = v88; /*0x1c20934*/\n  v88[0] = off_275A8D8[0] + 16; /*0x1c20938*/\n  v88[1] = off_275A840; /*0x1c20938*/\n  v57 = SendSetPack<dji::core::set_camera_video_format_req>( /*0x1c20960*/\n          a1,\n          a2: v86,\n          a3: a2,\n          a4: &v69,\n          a5: a4,\n          a6: 1,\n          a7: v90,\n          a8: v88,\n          a9: v28);\n  v58 = v89; /*0x1c20964*/\n  if ( v89 == v88 ) /*0x1c2096c*/\n  {\n    v59 = 32; /*0x1c20984*/\n    v58 = v88; /*0x1c20988*/\n  }\n  else\n  {\n    if ( v89 == nullptr ) /*0x1c20970*/\n      goto LABEL_28; /*0x1c20970*/\n    v59 = 40; /*0x1c20974*/\n  }\n  (*(void (**)(void))(*v58 + v59))(); /*0x1c20994*/\nLABEL_28:\n  v60 = v91; /*0x1c20998*/\n  if ( v91 == v90 ) /*0x1c209a4*/\n  {\n    v61 = 32; /*0x1c209b4*/\n    v60 = v90; /*0x1c209b8*/\n  }\n  else\n  {\n    if ( v91 == nullptr ) /*0x1c209a8*/\n      goto LABEL_33; /*0x1c209a8*/\n    v61 = 40; /*0x1c209ac*/\n  }\n  (*(void (**)(void))(*v60 + v61))(); /*0x1c209c4*/\nLABEL_33:\n  v62 = v70; /*0x1c209c8*/\n  if ( v70 != nullptr && sub_2619960(a1: -1, a2: (char *)v70 + 8) == 0 ) /*0x1c209dc*/\n  {\n    (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v62 + 16LL))(a1: v62); /*0x1c209ec*/\n    std::__shared_weak_count::__release_weak(this: v62); /*0x1c209f4*/\n  }\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v87, a2: nullptr, a3: 0); /*0x1c20a04*/\n  v63 = v75; /*0x1c20a08*/\n  if ( v75 != nullptr && sub_2619960(a1: -1, a2: (char *)v75 + 8) == 0 ) /*0x1c20a1c*/\n  {\n    (*(void (__fastcall **)(std::__shared_weak_count *))(*(_QWORD *)v63 + 16LL))(a1: v63); /*0x1c20a2c*/\n    std::__shared_weak_count::__release_weak(this: v63); /*0x1c20a34*/\n  }\n  return v57; /*0x1c20a68*/\n}",
+  "refs": [
+    {
+      "addr": "0x261dd20",
+      "name": "__dynamic_cast"
+    },
+    {
+      "addr": "0x2754aa0",
+      "name": "off_2754AA0"
+    },
+    {
+      "addr": "0x2763230",
+      "name": "off_2763230"
+    },
+    {
+      "addr": "0x2619930",
+      "name": "sub_2619930"
+    },
+    {
+      "addr": "0x262a520",
+      "name": "j__ZN3dji3sdk16SDKCameraUtility31ResolutionSDKTypeToProtocolTypeENS0_15VideoResolutionE"
+    },
+    {
+      "addr": "0x262ab80",
+      "name": "j__ZN3dji3sdk16SDKCameraUtility30FrameRateSDKTypeToProtocolTypeENS0_14VideoFrameRateE"
+    },
+    {
+      "addr": "0x2635f90",
+      "name": "j__ZN3dji4core16dji_cmd_base_reqILh1ELh2ELh24E31dji_camera_set_video_format_req31dji_camera_set_video_format_rspEC2Ev"
+    },
+    {
+      "addr": "0x261dbd0",
+      "name": "_ZN3Dji6Common6Buffer6assignEPKhj"
+    },
+    {
+      "addr": "0x261d750",
+      "name": "_ZN4plog17GetLoggerInstanceEv"
+    },
+    {
+      "addr": "0x261d760",
+      "name": "j__ZN4plog6RecordC2ENS_8SeverityEPKcmS3_PKv"
+    },
+    {
+      "addr": "0xb37e32",
+      "name": "aIntVideoresolu_0",
+      "string": "int VideoResolutionFrameRateAndSpeedRatioSet(KeyHandlers *, const Characteristics &, const DJIValuePtr &, const ResultCodeCallback &)"
+    },
+    {
+      "addr": "0xad1c85",
+      "name": "byte_AD1C85"
+    },
+    {
+      "addr": "0x27ddfd0",
+      "name": "qword_27DDFD0"
+    },
+    {
+      "addr": "0x27ddfc0",
+      "name": "xmmword_27DDFC0"
+    },
+    {
+      "addr": "0xb5e346",
+      "name": "aNull",
+      "string": "(null)"
+    },
+    {
+      "addr": "0x261d900",
+      "name": "strlen"
+    },
+    {
+      "addr": "0x108ae98",
+      "name": "sub_108AE98"
+    },
+    {
+      "addr": "0xada54d",
+      "name": "aSetResolution",
+      "string": " set resolution = "
+    },
+    {
+      "addr": "0x261db10",
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi"
+    },
+    {
+      "addr": "0xada560",
+      "name": "aRate_0",
+      "string": ", rate = "
+    },
+    {
+      "addr": "0xab78f9",
+      "name": "aSpeed",
+      "string": ", speed = "
+    },
+    {
+      "addr": "0x261d770",
+      "name": "j__ZN4plog6LoggerILi0EEpLERKNS_6RecordE"
+    },
+    {
+      "addr": "0x2754a00",
+      "name": "off_2754A00"
+    },
+    {
+      "addr": "0x261d780",
+      "name": "_ZdlPv"
+    },
+    {
+      "addr": "0x2754a08",
+      "name": "off_2754A08"
+    },
+    {
+      "addr": "0x2754a10",
+      "name": "off_2754A10"
+    },
+    {
+      "addr": "0x261d790",
+      "name": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev"
+    },
+    {
+      "addr": "0x261d7a0",
+      "name": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev"
+    },
+    {
+      "addr": "0x261d7b0",
+      "name": "_ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev"
+    },
+    {
+      "addr": "0x26d4750",
+      "name": "off_26D4750"
+    },
+    {
+      "addr": "0x275a8d8",
+      "name": "off_275A8D8"
+    },
+    {
+      "addr": "0x275a840",
+      "name": "off_275A840"
+    },
+    {
+      "addr": "0x2635fa0",
+      "name": "j__Z11SendSetPackIN3dji4core27set_camera_video_format_reqEEiPNS0_3sdk3key11KeyHandlersERNS1_11dji_cmd_reqERKNS3_15CharacteristicsENSt6__ndk110shared_ptrIKNS3_8DjiValueEEERKNSC_8functionIFviEEEbNSH_IFiPKNT_7RspTypeEjEEENSH_IFiiEEE"
+    },
+    {
+      "addr": "0x261d9c0",
+      "name": "_ZNSt6__ndk119__shared_weak_count14__release_weakEv"
+    },
+    {
+      "addr": "0x2619960",
+      "name": "sub_2619960"
+    }
+  ]
+}

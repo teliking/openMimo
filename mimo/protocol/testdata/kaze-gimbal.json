@@ -1,0 +1,81 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.gimbal.velocity.neutral",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testNeutralGimbalPayloadMatchesCapture @ 5d11fde; private Android GimbalSession.gimbalPayload @ 065653b3"
+    },
+    "operation": "gimbal.velocity",
+    "input": {
+      "pitchCommand": 1024,
+      "yawCommand": 1024,
+      "pitchOffset": 0,
+      "yawOffset": 0
+    },
+    "expected": {
+      "commandSetHex": "04",
+      "commandIdHex": "01",
+      "payloadHex": "00040000000400802200"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.gimbal.velocity.positive_pitch_negative_yaw",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS V03/V04 LINEAR mapping regressions and Pocket3GimbalSession.gimbalPayload @ 5d11fde; private Android GimbalSession.gimbalPayload @ 065653b3"
+    },
+    "operation": "gimbal.velocity",
+    "input": {
+      "pitchCommand": 1354,
+      "yawCommand": 694,
+      "pitchOffset": 330,
+      "yawOffset": -330
+    },
+    "expected": {
+      "commandSetHex": "04",
+      "commandIdHex": "01",
+      "payloadHex": "4A050000B60200802200"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.gimbal.velocity.negative_pitch_positive_yaw",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS V03/V04 LINEAR mapping regressions and Pocket3GimbalSession.gimbalPayload @ 5d11fde; private Android GimbalSession.gimbalPayload @ 065653b3"
+    },
+    "operation": "gimbal.velocity",
+    "input": {
+      "pitchCommand": 694,
+      "yawCommand": 1354,
+      "pitchOffset": -330,
+      "yawOffset": 330
+    },
+    "expected": {
+      "commandSetHex": "04",
+      "commandIdHex": "01",
+      "payloadHex": "B60200004A0500802200"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.gimbal.recenter.fe08",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.swift FE08 assertion @ 5d11fde; private Android GimbalSession 04/4C send path @ 065653b3"
+    },
+    "operation": "gimbal.recenter",
+    "input": {},
+    "expected": {
+      "commandSetHex": "04",
+      "commandIdHex": "4C",
+      "payloadHex": "FE08"
+    }
+  }
+]

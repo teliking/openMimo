@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-25T16:02:56.7157947+08:00",
+  "apk": "D:\\project\\openMimo\\mimo\\bin\\openmimo-0.1.0-arm64-debug.apk",
+  "apkSHA256": "25139B69D34A153C0A17BBC06C3D2B35FF84C35A1A5B065FD899FE26FC783B78",
+  "package": "dev.openmimo",
+  "version": "0.1.0",
+  "abi": "arm64-v8a",
+  "device": "kf6x7l85cq6tpflv",
+  "androidVersion": "13",
+  "goTestsIncludingSubtests": 82,
+  "goTestPackages": 9,
+  "vet": "passed",
+  "androidAssertions": 25,
+  "jni": "passed",
+  "ui": "passed",
+  "networkSocketBinding": "passed-no-packets-sent",
+  "foregroundService": "passed",
+  "cameraHardwareValidation": "partial-see-docs/HARDWARE.md"
+}

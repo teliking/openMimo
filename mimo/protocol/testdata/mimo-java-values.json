@@ -1,0 +1,82 @@
+{
+  "source_apk_sha256": "877cce18fb21cbdb6e025965e7eab4b06d823675428f61b14f641b719454c2a2",
+  "vectors": [
+    {
+      "name": "video-4k60",
+      "type": "dji.sdk.keyvalue.value.camera.VideoResolutionFrameRate",
+      "value": {
+        "resolution": "RESOLUTION_3840x2160",
+        "frameRate": "RATE_60FPS"
+      },
+      "hex": "1000000006000000"
+    },
+    {
+      "name": "video-4k120-slow4",
+      "type": "dji.sdk.keyvalue.value.camera.VideoResolutionFrameRateAndSpeedRatio",
+      "value": {
+        "frameRateAndResolution": {
+          "resolution": "RESOLUTION_3840x2160",
+          "frameRate": "RATE_120FPS"
+        },
+        "speedRatio": 4
+      },
+      "hex": "100000000700000004000000"
+    },
+    {
+      "name": "gimbal-relative",
+      "type": "dji.sdk.keyvalue.value.gimbal.GimbalAngleRotation",
+      "value": {
+        "mode": "RELATIVE_ANGLE",
+        "pitch": -12.5,
+        "roll": 0.0,
+        "yaw": 45.125,
+        "pitchIgnored": false,
+        "rollIgnored": true,
+        "yawIgnored": false,
+        "duration": 1.75,
+        "jointReferenceUsed": false,
+        "timeout": 2500
+      },
+      "hex": "0000000000000000000029c000000000000000000000000000904640000100000000000000fc3f00c4090000"
+    },
+    {
+      "name": "gimbal-speed",
+      "type": "dji.sdk.keyvalue.value.gimbal.GimbalSpeedRotation",
+      "value": {
+        "pitch": -30.0,
+        "yaw": 60.0,
+        "roll": 0.0,
+        "ctrlInfo": {
+          "disableReturnCenter": true
+        }
+      },
+      "hex": "0000000000003ec00000000000004e40000000000000000001"
+    },
+    {
+      "name": "gimbal-waypoint",
+      "type": "dji.sdk.keyvalue.value.gimbal.GimbalCustomPathPoint",
+      "value": {
+        "position": {
+          "pitch": 12.5,
+          "roll": 0.0,
+          "yaw": -179.9
+        },
+        "duration": 123456,
+        "stayTime": 3500
+      },
+      "hex": "00000000000029400000000000000000cdcccccccc7c66c040e20100ac0d0000"
+    },
+    {
+      "name": "camera-mode-range",
+      "type": "dji.sdk.keyvalue.value.camera.CameraWorkModeRangeMsg",
+      "value": {
+        "value": [
+          "SHOOT_PHOTO",
+          "RECORD_VIDEO",
+          "UNKNOWN"
+        ]
+      },
+      "hex": "030000000000000001000000ffff0000"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.openmimo" android:versionCode="1" android:versionName="0.1.0">
+  <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="35" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
+  <application android:label="openMimo" android:theme="@style/AppTheme" android:icon="@drawable/app_icon" android:allowBackup="false" android:debuggable="true" android:extractNativeLibs="true" android:usesCleartextTraffic="false" android:supportsRtl="true">
+    <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize">
+      <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+    </activity>
+    <service android:name=".CameraService" android:exported="false" android:foregroundServiceType="connectedDevice" android:stopWithTask="true" />
+  </application>
+  <instrumentation android:name=".SmokeInstrumentation" android:targetPackage="dev.openmimo" android:functionalTest="true" android:label="openMimo offline smoke tests" />
+</manifest>

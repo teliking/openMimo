@@ -1,0 +1,22 @@
+{
+  "addr": "0x1775800",
+  "code": "__int64 __fastcall dji::sdk::CameraVideoModule::ActionStopRecordVideo(__int64 a1, __int64 a2, __int64 a3, __int64 *a4)\n{\n  __int64 v7; // x0\n  __int64 v8; // x9\n  unsigned int v9; // w19\n  _QWORD *v10; // x0\n  __int64 v11; // x8\n  _QWORD *v12; // x0\n  __int64 v13; // x8\n  unsigned __int8 v15[4]; // [xsp+Ch] [xbp-A4h] BYREF\n  _BYTE v16[20]; // [xsp+10h] [xbp-A0h] BYREF\n  int v17; // [xsp+24h] [xbp-8Ch]\n  _BYTE v18[16]; // [xsp+30h] [xbp-80h] BYREF\n  _QWORD v19[4]; // [xsp+40h] [xbp-70h] BYREF\n  _QWORD *v20; // [xsp+60h] [xbp-50h]\n  _BYTE v21[32]; // [xsp+70h] [xbp-40h] BYREF\n  _BYTE *v22; // [xsp+90h] [xbp-20h]\n  __int64 v23; // [xsp+A8h] [xbp-8h]\n\n  v23 = *(_QWORD *)(_ReadStatusReg(TPIDR_EL0) + 40); /*0x1775834*/\n  v15[0] = 0; /*0x1775838*/\n  dji::core::dji_cmd_base_req<(unsigned char)1,(unsigned char)2,(unsigned char)2,dji_camera_record_video_req,dji_camera_record_video_rsp>::dji_cmd_base_req(this: (dji::core::dji_cmd_base_req<(unsigned char)1, (unsigned char)2, (unsigned char)2, dji_camera_record_video_req, dji_camera_record_video_rsp> *)v16); /*0x177583c*/\n  v16[2] = 2; /*0x1775848*/\n  v16[4] = 3; /*0x1775850*/\n  v16[7] = 1; /*0x1775858*/\n  v17 = 1500; /*0x177585c*/\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v18, a2: v15, a3: 1u); /*0x177586c*/\n  v7 = a4[4]; /*0x1775870*/\n  if ( v7 == 0 ) /*0x1775878*/\n    goto LABEL_4; /*0x1775878*/\n  if ( (__int64 *)v7 != a4 ) /*0x1775880*/\n  {\n    v7 = (*(__int64 (__fastcall **)(__int64))(*(_QWORD *)v7 + 16LL))(a1: v7); /*0x177588c*/\nLABEL_4:\n    v22 = (_BYTE *)v7; /*0x1775890*/\n    goto LABEL_6; /*0x1775894*/\n  }\n  v8 = *a4; /*0x177589c*/\n  v22 = v21; /*0x17758a0*/\n  (*(void (__fastcall **)(__int64 *, _BYTE *))(v8 + 24))(a1: a4, a2: v21); /*0x17758b0*/\nLABEL_6:\n  v20 = v19; /*0x17758b4*/\n  v19[0] = (char *)off_27610D8 + 16; /*0x17758c8*/\n  v9 = dji::sdk::BaseAbstractionModule::SendActionPackProxy<dji::core::record_video_req>( /*0x17758e8*/\n         a1,\n         a2: v16,\n         a3: a2,\n         a4: v21,\n         a5: v19,\n         a6: 0);\n  v10 = v20; /*0x17758ec*/\n  if ( v20 == v19 ) /*0x17758f4*/\n  {\n    v11 = 32; /*0x1775904*/\n    v10 = v19; /*0x1775908*/\n  }\n  else\n  {\n    if ( v20 == nullptr ) /*0x17758f8*/\n      goto LABEL_11; /*0x17758f8*/\n    v11 = 40; /*0x17758fc*/\n  }\n  (*(void (**)(void))(*v10 + v11))(); /*0x1775914*/\nLABEL_11:\n  v12 = v22; /*0x1775918*/\n  if ( v22 == v21 ) /*0x1775924*/\n  {\n    v13 = 32; /*0x1775934*/\n    v12 = v21; /*0x1775938*/\n    goto LABEL_15; /*0x1775938*/\n  }\n  if ( v22 != nullptr ) /*0x1775928*/\n  {\n    v13 = 40; /*0x177592c*/\nLABEL_15:\n    (*(void (**)(void))(*v12 + v13))(); /*0x177593c*/\n  }\n  Dji::Common::Buffer::assign(this: (Dji::Common::Buffer *)v18, a2: nullptr, a3: 0); /*0x1775948*/\n  return v9; /*0x1775980*/\n}",
+  "refs": [
+    {
+      "addr": "0x2634b60",
+      "name": "j__ZN3dji4core16dji_cmd_base_reqILh1ELh2ELh2E27dji_camera_record_video_req27dji_camera_record_video_rspEC2Ev"
+    },
+    {
+      "addr": "0x261dbd0",
+      "name": "_ZN3Dji6Common6Buffer6assignEPKhj"
+    },
+    {
+      "addr": "0x27610d8",
+      "name": "off_27610D8"
+    },
+    {
+      "addr": "0x263f5a0",
+      "name": "j__ZN3dji3sdk21BaseAbstractionModule19SendActionPackProxyINS_4core16record_video_reqEEEiRNS3_11dji_cmd_reqERKNS0_15CharacteristicsENSt6__ndk18functionIFviNSA_10shared_ptrIKNS0_8DjiValueEEEEEENSB_IFiPKNT_7RspTypeEEEEb"
+    }
+  ]
+}

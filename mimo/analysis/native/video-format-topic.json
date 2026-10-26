@@ -1,0 +1,10 @@
+{
+  "addr": "0x1c58164",
+  "code": "__int64 __fastcall KeyVideoResolutionFrameRateV2TopicPush(__int64 a1, __int64 a2, unsigned __int8 *a3)\n{\n  return UpdateVideoResolutionFrameRate(a1: *a3, a2: a3[1], a3: a1, a4: a2);\n}",
+  "refs": [
+    {
+      "addr": "0x2637790",
+      "name": "j__Z30UpdateVideoResolutionFrameRate27DJI_CAMERA_VIDEO_RESOLUTION27DJI_CAMERA_VIDEO_FRAME_RATEPN3dji3sdk3key11KeyHandlersERKNS2_15CharacteristicsE"
+    }
+  ]
+}

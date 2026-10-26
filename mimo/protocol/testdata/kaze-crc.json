@@ -1,0 +1,84 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.crc8.session_wake_header",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testCRCMatchesFrozenAndroidWakeFrame @ 5d11fde; private Android DjiCrc.kt @ 065653b3"
+    },
+    "operation": "crc8.compute",
+    "input": {
+      "dataHex": "550F04"
+    },
+    "expected": {
+      "crcHex": "A2"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.crc8.pairing_header",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testPairingFrameMatchesFrozenAndroidBytes @ 5d11fde; private Android DjiCrc.kt @ 065653b3"
+    },
+    "operation": "crc8.compute",
+    "input": {
+      "dataHex": "553304"
+    },
+    "expected": {
+      "crcHex": "C2"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.crc16.session_wake_body",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testCRCMatchesFrozenAndroidWakeFrame @ 5d11fde; private Android DjiCrc.kt @ 065653b3"
+    },
+    "operation": "crc16.compute",
+    "input": {
+      "dataHex": "550F04A202F02B8040002B0400"
+    },
+    "expected": {
+      "crcHex": "4024"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.crc16.routing_metadata_frame_body",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV04Tests.testScanFramesExposesRoutingMetadata frame fields @ 5d11fde; private Android DjiCrc.kt @ 065653b3"
+    },
+    "operation": "crc16.compute",
+    "input": {
+      "dataHex": "550F04A202073412400D026162"
+    },
+    "expected": {
+      "crcHex": "339B"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.crc16.reject_corrupted_session_wake",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS DumlMessage.init(data:) @ 5d11fde; private Android DjiMessage.fromBytes @ 065653b3",
+      "notes": "The payload byte 04 was changed to 05 without updating the trailing CRC-16."
+    },
+    "operation": "duml.rejectCorruptedFrame",
+    "input": {
+      "frameHex": "550F04A202F02B8040002B05002440"
+    },
+    "expected": {
+      "valid": false,
+      "errorCategory": "crc16-mismatch"
+    }
+  }
+]

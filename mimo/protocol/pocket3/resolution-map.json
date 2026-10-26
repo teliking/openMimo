@@ -1,0 +1,352 @@
+{
+  "source_apk_sha256": "877cce18fb21cbdb6e025965e7eab4b06d823675428f61b14f641b719454c2a2",
+  "initializer": "0x14fb38c",
+  "table_address": "0xbdbe9c",
+  "table_sha256": "c1bb09431044872ec000d8fe435c089e64a5ab007c1e00e64d14d0d85b45a8bd",
+  "fallback": "identity; SDK-to-wire narrows to one byte at caller",
+  "pairs": [
+    {
+      "sdk": 4,
+      "wire": 4
+    },
+    {
+      "sdk": 8,
+      "wire": 8
+    },
+    {
+      "sdk": 10,
+      "wire": 10
+    },
+    {
+      "sdk": 24,
+      "wire": 24
+    },
+    {
+      "sdk": 31,
+      "wire": 31
+    },
+    {
+      "sdk": 16,
+      "wire": 16
+    },
+    {
+      "sdk": 22,
+      "wire": 22
+    },
+    {
+      "sdk": 0,
+      "wire": 0
+    },
+    {
+      "sdk": 26,
+      "wire": 26
+    },
+    {
+      "sdk": 28,
+      "wire": 28
+    },
+    {
+      "sdk": 27,
+      "wire": 27
+    },
+    {
+      "sdk": 32,
+      "wire": 32
+    },
+    {
+      "sdk": 33,
+      "wire": 33
+    },
+    {
+      "sdk": 36,
+      "wire": 36
+    },
+    {
+      "sdk": 37,
+      "wire": 37
+    },
+    {
+      "sdk": 35,
+      "wire": 35
+    },
+    {
+      "sdk": 69,
+      "wire": 69
+    },
+    {
+      "sdk": 253,
+      "wire": 253
+    },
+    {
+      "sdk": 254,
+      "wire": 254
+    },
+    {
+      "sdk": 34,
+      "wire": 34
+    },
+    {
+      "sdk": 48,
+      "wire": 48
+    },
+    {
+      "sdk": 50,
+      "wire": 50
+    },
+    {
+      "sdk": 52,
+      "wire": 52
+    },
+    {
+      "sdk": 55,
+      "wire": 55
+    },
+    {
+      "sdk": 45,
+      "wire": 45
+    },
+    {
+      "sdk": 95,
+      "wire": 95
+    },
+    {
+      "sdk": 39,
+      "wire": 39
+    },
+    {
+      "sdk": 56,
+      "wire": 56
+    },
+    {
+      "sdk": 97,
+      "wire": 97
+    },
+    {
+      "sdk": 65,
+      "wire": 65
+    },
+    {
+      "sdk": 71,
+      "wire": 71
+    },
+    {
+      "sdk": 99,
+      "wire": 99
+    },
+    {
+      "sdk": 66,
+      "wire": 66
+    },
+    {
+      "sdk": 67,
+      "wire": 67
+    },
+    {
+      "sdk": 68,
+      "wire": 68
+    },
+    {
+      "sdk": 69,
+      "wire": 69
+    },
+    {
+      "sdk": 98,
+      "wire": 101
+    },
+    {
+      "sdk": 100,
+      "wire": 100
+    },
+    {
+      "sdk": 111,
+      "wire": 111
+    }
+  ],
+  "verified_native_insertions": [
+    {
+      "address": "0x14fb61c",
+      "table_offset": 0
+    },
+    {
+      "address": "0x14fb630",
+      "table_offset": 8
+    },
+    {
+      "address": "0x14fb648",
+      "table_offset": 16
+    },
+    {
+      "address": "0x14fb65c",
+      "table_offset": 24
+    },
+    {
+      "address": "0x14fb674",
+      "table_offset": 32
+    },
+    {
+      "address": "0x14fb688",
+      "table_offset": 40
+    },
+    {
+      "address": "0x14fb6a0",
+      "table_offset": 48
+    },
+    {
+      "address": "0x14fb6b4",
+      "table_offset": 56
+    },
+    {
+      "address": "0x14fb6cc",
+      "table_offset": 64
+    },
+    {
+      "address": "0x14fb6e0",
+      "table_offset": 72
+    },
+    {
+      "address": "0x14fb6f8",
+      "table_offset": 80
+    },
+    {
+      "address": "0x14fb70c",
+      "table_offset": 88
+    },
+    {
+      "address": "0x14fb724",
+      "table_offset": 96
+    },
+    {
+      "address": "0x14fb738",
+      "table_offset": 104
+    },
+    {
+      "address": "0x14fb750",
+      "table_offset": 112
+    },
+    {
+      "address": "0x14fb764",
+      "table_offset": 120
+    },
+    {
+      "address": "0x14fb77c",
+      "table_offset": 128
+    },
+    {
+      "address": "0x14fb790",
+      "table_offset": 136
+    },
+    {
+      "address": "0x14fb7a8",
+      "table_offset": 144
+    },
+    {
+      "address": "0x14fb7bc",
+      "table_offset": 152
+    },
+    {
+      "address": "0x14fb7d4",
+      "table_offset": 160
+    },
+    {
+      "address": "0x14fb7e8",
+      "table_offset": 168
+    },
+    {
+      "address": "0x14fb800",
+      "table_offset": 176
+    },
+    {
+      "address": "0x14fb814",
+      "table_offset": 184
+    },
+    {
+      "address": "0x14fb82c",
+      "table_offset": 192
+    },
+    {
+      "address": "0x14fb840",
+      "table_offset": 200
+    },
+    {
+      "address": "0x14fb858",
+      "table_offset": 208
+    },
+    {
+      "address": "0x14fb86c",
+      "table_offset": 216
+    },
+    {
+      "address": "0x14fb884",
+      "table_offset": 224
+    },
+    {
+      "address": "0x14fb898",
+      "table_offset": 232
+    },
+    {
+      "address": "0x14fb8b0",
+      "table_offset": 240
+    },
+    {
+      "address": "0x14fb8c4",
+      "table_offset": 248
+    },
+    {
+      "address": "0x14fb8dc",
+      "table_offset": 256
+    },
+    {
+      "address": "0x14fb8f0",
+      "table_offset": 264
+    },
+    {
+      "address": "0x14fb908",
+      "table_offset": 272
+    },
+    {
+      "address": "0x14fb91c",
+      "table_offset": 280
+    },
+    {
+      "address": "0x14fb934",
+      "table_offset": 288
+    },
+    {
+      "address": "0x14fb948",
+      "table_offset": 296
+    },
+    {
+      "address": "0x14fb960",
+      "table_offset": 304
+    }
+  ],
+  "frame_rate_from_wire_address": "0x14f9484",
+  "frame_rate_table_address": "0xbdc054",
+  "frame_rate_table_mask": "0x9fffff",
+  "frame_rate_protocol_to_sdk": [
+    65535,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    65535,
+    65535,
+    23
+  ]
+}

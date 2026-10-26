@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-25T14:24:43.2114708+08:00",
+  "goVersion": "go version go1.27.1 windows/amd64",
+  "testsPassedIncludingSubtests": 67,
+  "testPackagesPassed": 6,
+  "vet": "passed",
+  "androidSerial": "kf6x7l85cq6tpflv",
+  "androidOfflineExecution": "passed",
+  "androidIncrementalChecks": [
+    "sdk-resolution-conversion",
+    "video-format-hg212",
+    "video-v2-property-decoding"
+  ],
+  "cameraHardwareValidation": "pending",
+  "artifacts": [
+    {
+      "Path": "D:\\project\\openMimo\\mimo\\bin\\mimo.exe",
+      "Hash": "EF08DCEC9E16132D2E97D97B2C972DB310FA10E72418EB4B358743FF40AF7F11"
+    },
+    {
+      "Path": "D:\\project\\openMimo\\mimo\\bin\\mimo-linux-arm64",
+      "Hash": "7CDB64886B2FD9CE27B7307897DF3DB9F646BB5F8FE0FB4A6FB8E9F389E5ECB7"
+    }
+  ]
+}

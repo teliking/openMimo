@@ -1,0 +1,12 @@
+{
+  "builtAt": "2026-10-25T15:58:29.0610033+08:00",
+  "package": "dev.openmimo",
+  "version": "0.1.0",
+  "abi": "arm64-v8a",
+  "minSdk": 29,
+  "targetSdk": 35,
+  "apk": "D:\\project\\openMimo\\mimo\\bin\\openmimo-0.1.0-arm64-debug.apk",
+  "sha256": "25139B69D34A153C0A17BBC06C3D2B35FF84C35A1A5B065FD899FE26FC783B78",
+  "nativeSHA256": "8AB2979B0CAB7E4CDF72A1D81954CDE77F2DFF19B00270704DD9239D4ED2D65B",
+  "buildDirectory": "D:\\project\\openMimo\\mimo\\android\\build\\run-20261025-155820-078"
+}

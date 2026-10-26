@@ -1,0 +1,10 @@
+{
+  "addr": "0x14f92f8",
+  "code": "__int64 __fastcall dji::sdk::SDKCameraUtility::ResolutionSDKTypeToProtocolType(__int64 result)\n{\n  __int128 *v1; // x8\n\n  v1 = off_275F890[0] + 1; /*0x14f9300*/\n  while ( 1 ) /*0x14f9304*/\n  {\n    v1 = *(__int128 **)v1; /*0x14f9304*/\n    if ( v1 == nullptr ) /*0x14f9308*/\n      break; /*0x14f9308*/\n    if ( *((_DWORD *)v1 + 4) == (_DWORD)result ) /*0x14f9314*/\n      return *((unsigned int *)v1 + 5); /*0x14f9318*/\n  }\n  return result; /*0x14f931c*/\n}",
+  "refs": [
+    {
+      "addr": "0x275f890",
+      "name": "off_275F890"
+    }
+  ]
+}

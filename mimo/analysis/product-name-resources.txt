@@ -1,0 +1,185 @@
+      spec resource 0x7f130dab dji.mimo:string/hg214_product_name: flags=0x00000000
+      spec resource 0x7f130dac dji.mimo:string/hg214hw_activate_home_terms_of_use_content_second: flags=0x00000004
+      spec resource 0x7f130dad dji.mimo:string/hg214hw_setting_product_terms_page_title: flags=0x00000004
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f130dae
+      spec resource 0x7f130daf dji.mimo:string/hg224_activate_common_authorize_list_title: flags=0x00000004
+      spec resource 0x7f130db4 dji.mimo:string/hg224_product_name: flags=0x00000000
+      INVALID TYPE CONFIG FOR RESOURCE 0x7f130db5
+      spec resource 0x7f130db6 dji.mimo:string/hg2x0module_localizable_upgrade_hintlabel_device_connect: flags=0x00000004
+      spec resource 0x7f130db7 dji.mimo:string/hg2x0module_localizable_upgrade_hintlabel_low_battery: flags=0x00000004
+      spec resource 0x7f130db8 dji.mimo:string/hg302_activate_common_bluetooth_tip_content: flags=0x00000004
+          (string8) "Update successful"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000390a (s=0x0008 r=0x00)
+          (string8) "Activate Osmo Pocket 3"
+        resource 0x7f130dab dji.mimo:string/hg214_product_name: t=0x03 d=0x00004908 (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 4"
+        resource 0x7f130dac dji.mimo:string/hg214hw_activate_home_terms_of_use_content_second: t=0x03 d=0x000043ba (s=0x0008 r=0x00)
+          (string8) "Hardware Product Terms of Use"
+        resource 0x7f130dad dji.mimo:string/hg214hw_setting_product_terms_page_title: t=0x03 d=0x00004a7e (s=0x0008 r=0x00)
+        resource 0x7f130db4 dji.mimo:string/hg224_product_name: t=0x03 d=0x00004909 (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 4P"
+        resource 0x7f130db6 dji.mimo:string/hg2x0module_localizable_upgrade_hintlabel_device_connect: t=0x03 d=0x000049bd (s=0x0008 r=0x00)
+          (string8) "Please connect DJI device before installation."
+        resource 0x7f130db7 dji.mimo:string/hg2x0module_localizable_upgrade_hintlabel_low_battery: t=0x03 d=0x00004690 (s=0x0008 r=0x00)
+          (string8) "For Osmo Pocket series"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00004273 (s=0x0008 r=0x00)
+          (string8) "For Osmo Pocket 3"
+          (string8) "Osmo Pocket"
+        resource 0x7f132559 dji.mimo:string/mimo_upgrade_common_firmware_device_type_hg212_content: t=0x03 d=0x00004907 (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3"
+          (string8) "Image Settings"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00004ebc (s=0x0008 r=0x00)
+          (string8) "Supports up to 4K resolution Live Photo screenshots, making sharing even easier. At the same time, Osmo Pocket 3, Osmo Action 5 Pro, and Osmo Action 4 each support five different official frames."
+          (string8) "Osmo Pocket"
+        resource 0x7f1328e3 dji.mimo:string/prod_device_manager_productname_osp3: t=0x03 d=0x00004907 (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3"
+          (string8) "更新完了"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x00005c6e (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3のアクティベーション"
+          (string8) "Osmo Pocketシリーズ向け"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00005c6f (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3向け"
+          (string8) "映像設定"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00005ae3 (s=0x0008 r=0x00)
+          (string8) "4K解像度までのLive Photosのスクリーンショットをサポートし、共有をさらに容易にします。同時に Osmo Pocket 3、Osmo Action 5 Pro、Osmo Action 4 はそれぞれ5種類の公式フレームをサポートします。"
+          (string8) "Update erfolgreich"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x000087ec (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 aktivieren"
+          (string8) "Bildeinstellungen"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00008b90 (s=0x0008 r=0x00)
+          (string8) "Unterst%C3%BCtzt Live Photo-Screenshots in bis zu 4K-Auflösung, wodurch das Teilen noch einfacher wird. Gleichzeitig unterstützen Osmo Pocket 3, Osmo Action 5 Pro und Osmo Action 4 jeweils fünf verschiedene offizielle Rahmen."
+          (string8) "ต้องใช้ชื่อจริงยืนยันตัวตนเพื่อเริ่มไลฟ์สตรีม ไปที่แพลตฟอร์ม Kuaishou (Kwai) แล้วดำเนินการยืนยันตัวตนด้วยชื่อจริง"
+        resource 0x7f130cfa dji.mimo:string/hg211_fpv_live_shift_pin_connect_unavailable_small_dialog_content: t=0x03 d=0x0000ab4b (s=0x0008 r=0x00)
+          (string8) "ไลฟ์สตรีมจำเป็นต้องใช้มือจับอเนกประสงค์ โปรดทำดังต่อไปนี้:\n 1. ตัดการเชื่อมต่อโทรศัพท์จาก DJI\n 2. ถอดอะแดปเตอร์สมาร์ทโฟนออกจากยูนิเวอร์แซลพอร์ตบน DJI Pocket 3 เชื่อมต่อมือจับอเนกประสงค์กับ DJI Pocket แล้วเชื่อมต่อ Mimo กับเครือข่าย Wi-Fi ของ DJI Pocket"
+          (string8) "อัปเดตไมค์ไร้สายสำเร็จแล้ว"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000a56f (s=0x0008 r=0x00)
+          (string8) "เปิดใช้งาน Osmo Pocket 3"
+          (string8) "สำหรับรุ่น Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0000a283 (s=0x0008 r=0x00)
+          (string8) "สำหรับ Osmo Pocket 3"
+          (string8) "การตั้งค่าภาพ"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0000a048 (s=0x0008 r=0x00)
+          (string8) "รองรับภาพถ่ายสดแบบหน้าจอความละเอียดสูงสุด 4K ทำให้การแชร์ง่ายขึ้น ในขณะเดียวกัน Osmo Pocket 3, Osmo Action 5 Pro และ Osmo Action 4 ต่างก็รองรับกรอบภาพอย่างเป็นทางการ 5 แบบที่แตกต่างกัน"
+          (string8) "Do rozpoczęcia streamingu na żywo wymagane jest uwierzytelnienie za pomocą prawdziwego imienia i nazwiska. Przejdź na platformę Kuaishou (Kwai) i przeprowadź uwierzytelnienie za pomocą prawdziwego imienia i nazwiska."
+        resource 0x7f130cfa dji.mimo:string/hg211_fpv_live_shift_pin_connect_unavailable_small_dialog_content: t=0x03 d=0x0000c86b (s=0x0008 r=0x00)
+          (string8) "Transmisja strumieniowa na żywo wymaga uchwytu Do-It-All Handle. Wykonaj następujące czynności:\n 1. Rozłącz telefon z urządzeniem DJI Pocket\n 2. Wyjmij adapter smartfona z portu uniwersalnego w urządzeniu DJI Pocket 3. Podłącz uchwyt Do-It-All Handle do urządzenia DJI Pocket, a następnie połącz aplikację Mimo z siecią Wi-Fi urządzenia DJI Pocket"
+          (string8) "Pomyślnie zaktualizowano mikrofon bezprzewodowy"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000b81d (s=0x0008 r=0x00)
+          (string8) "Aktywuj Osmo Pocket 3"
+          (string8) "W przypadku Osmo Pocket series"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0000bb4d (s=0x0008 r=0x00)
+          (string8) "Dotyczy Osmo Pocket 3"
+          (string8) "Ustawienia obrazu"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0000c1af (s=0x0008 r=0x00)
+          (string8) "Obsługuje zrzuty ekranu Live Photos o rozdzielczości do 4K, co jeszcze ułatwia udostępnianie. Jednocześnie Osmo Pocket 3, Osmo Action 5 Pro i Osmo Action 4 obsługują każdy pięć różnych oficjalnych ramek."
+          (string8) "Perlu autentikasi nama asli untuk memulai livestreaming. Buka platform (Kwai) dan lakukan autentikasi nama asli"
+        resource 0x7f130cfa dji.mimo:string/hg211_fpv_live_shift_pin_connect_unavailable_small_dialog_content: t=0x03 d=0x0000df10 (s=0x0008 r=0x00)
+          (string8) "Livestreaming wajib menggunakan Do-It-All Handle. Lakukan berikut ini:\n 1. Putus sambungan ponsel dari DJI Pocket\n 2. Lepas adaptor smartphone dari port universal di DJI Pocket 3. Sambungkan Do-It-All Handle ke DJI Pocket lalu hubungkan Mimo ke jaringan Wi-Fi DJI Pocket"
+          (string8) "Mic nirkabel berhasil diperbarui"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000d52e (s=0x0008 r=0x00)
+          (string8) "Aktifkan Osmo Pocket 3"
+          (string8) "Untuk seri Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0000e9c5 (s=0x0008 r=0x00)
+          (string8) "Untuk Osmo Pocket 3"
+          (string8) "Pengaturan Gambar"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0000e03e (s=0x0008 r=0x00)
+          (string8) "Mendukung tangkapan layar Live Photos hingga resolusi 4K, membuat berbagi menjadi lebih mudah. Sementara itu, Osmo Pocket 3, Osmo Action 5 Pro, dan Osmo Action 4 masing-masing mendukung lima bingkai resmi berbeda."
+          (string8) "업데이트 성공"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000efec (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 활성화"
+          (string8) "Osmo Pocket 시리즈의 경우"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0000efed (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3의 경우"
+          (string8) "이미지 설정"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0000ee33 (s=0x0008 r=0x00)
+          (string8) "4K 해상도까지의 Live Photos 스크린샷을 지원하여 공유를 더 쉽고 간단하게 만듭니다. 동시에 Osmo Pocket 3, Osmo Action 5 Pro, Osmo Action 4는 각각 다섯 가지 공식 프레임을 지원합니다."
+          (string8) "Mise à jour terminée"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x00010975 (s=0x0008 r=0x00)
+          (string8) "Activer Osmo Pocket 3"
+          (string8) "Pour la gamme Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0001191c (s=0x0008 r=0x00)
+          (string8) "Pour Osmo Pocket 3"
+          (string8) "Paramètres d'image"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00011943 (s=0x0008 r=0x00)
+          (string8) "Prend en charge les captures d'écran de Live Photos jusqu'à 4K, ce qui rend le partage encore plus facile. Parallèlement, Osmo Pocket 3, Osmo Action 5 Pro et Osmo Action 4 prennent chacun en charge cinq cadres officiels différents."
+          (string8) "Kablosuz mikrofon başarıyla güncellendi"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0001337a (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3'yu Etkinleştirme"
+          (string8) "Osmo Pocket serisi için"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00013379 (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 İçin"
+          (string8) "Görüntü Ayarları"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00012598 (s=0x0008 r=0x00)
+          (string8) "4K çözünürlüğe kadar Live Photos ekran görüntülerini destekler, böylece paylaşım daha da kolaylaşır. Aynı zamanda Osmo Pocket 3, Osmo Action 5 Pro ve Osmo Action 4 her biri beş farklı resmi çerçeveyi destekler."
+          (string8) "Actualización completada"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x000140c7 (s=0x0008 r=0x00)
+          (string8) "Activar Osmo Pocket 3"
+          (string8) "Para la serie Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x000150b8 (s=0x0008 r=0x00)
+          (string8) "Para Osmo Pocket 3"
+          (string8) "Configuración de imagen"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0001553c (s=0x0008 r=0x00)
+          (string8) "Soporta capturas de pantalla de Live Photos de hasta 4K, lo que facilita aún más la compartición. Al mismo tiempo, Osmo Pocket 3, Osmo Action 5 Pro y Osmo Action 4 admiten cada uno cinco marcos oficiales diferentes."
+          (string8) "Aggiornamento completato"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x00015d83 (s=0x0008 r=0x00)
+          (string8) "Attiva Osmo Pocket 3"
+          (string8) "Per la serie Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00016a49 (s=0x0008 r=0x00)
+          (string8) "Per Osmo Pocket 3"
+          (string8) "Impostazioni dell'immagine"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00016f8e (s=0x0008 r=0x00)
+          (string8) "Supporta screenshot di Live Photos fino a 4K, rendendo la condivisione ancora più facile. Allo stesso tempo, Osmo Pocket 3, Osmo Action 5 Pro e Osmo Action 4 supportano ciascuno cinque cornici ufficiali diverse."
+          (string8) "Обновление завершено"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x000178f4 (s=0x0008 r=0x00)
+          (string8) "Активировать Osmo Pocket 3"
+          (string8) "Для серии Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00017c36 (s=0x0008 r=0x00)
+          (string8) "Для Osmo Pocket 3"
+          (string8) "Настройки изображения"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x000185ed (s=0x0008 r=0x00)
+          (string8) "Поддерживает скриншоты Live Photos с разрешением до 4K, что упрощает обмен. В то же время Osmo Pocket 3, Osmo Action 5 Pro и Osmo Action 4 поддерживают по пять различных официальных рамок."
+          (string8) "升級成功"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0001a397 (s=0x0008 r=0x00)
+          (string8) "激活 Osmo Pocket 3"
+          (string8) "Osmo Pocket系列重置無線連接方法"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0001998d (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 重置無線連接方法"
+          (string8) "畫面設置"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0001a0b9 (s=0x0008 r=0x00)
+          (string8) "支持最高4K分辨率的實況照片截屏，讓分享更加輕鬆簡單。同時 Osmo Pocket 3、Osmo Action 5 Pro、Osmo Action 4 各支持5款不同的官方畫框。"
+          (string8) "升级成功"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0001a397 (s=0x0008 r=0x00)
+          (string8) "激活 Osmo Pocket 3"
+          (string8) "Osmo Pocket系列重置无线连接方法"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0001ae1a (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 重置无线连接方法"
+          (string8) "画面设置"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0001b8b5 (s=0x0008 r=0x00)
+          (string8) "支持最高4K分辨率的实况照片截屏，让分享更加轻松简单。同时 Osmo Pocket 3、Osmo Action 5 Pro、Osmo Action 4 各支持5款不同的官方画框。"
+          (string8) "Atualização bem-sucedida"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0001c79a (s=0x0008 r=0x00)
+          (string8) "Ativar Osmo Pocket 3"
+          (string8) "P/ a Série Osmo Pocket"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0001d3c0 (s=0x0008 r=0x00)
+          (string8) "P/ o Osmo Pocket 3"
+          (string8) "Configurações de imagem"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0001d765 (s=0x0008 r=0x00)
+          (string8) "Suporta capturas de tela de Live Photos com resolução de até 4K, tornando o compartilhamento ainda mais fácil. Ao mesmo tempo, Osmo Pocket 3, Osmo Action 5 Pro e Osmo Action 4 suportam cada um cinco marcos oficiais diferentes."
+          (string8) "Update successful"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0000390a (s=0x0008 r=0x00)
+          (string8) "Activate Osmo Pocket 3"
+          (string8) "For Osmo Pocket series"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x00004273 (s=0x0008 r=0x00)
+          (string8) "For Osmo Pocket 3"
+          (string8) "Image Settings"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x00004ebc (s=0x0008 r=0x00)
+          (string8) "Supports up to 4K resolution Live Photo screenshots, making sharing even easier. At the same time, Osmo Pocket 3, Osmo Action 5 Pro, and Osmo Action 4 each support five different official frames."
+          (string8) "升級成功"
+        resource 0x7f130d4f dji.mimo:string/hg212_activate_home_title: t=0x03 d=0x0001a397 (s=0x0008 r=0x00)
+          (string8) "激活 Osmo Pocket 3"
+          (string8) "Osmo Pocket系列重置無線連接方法"
+        resource 0x7f132105 dji.mimo:string/mimo_fpv_connection_help_op_reset_content2: t=0x03 d=0x0001998d (s=0x0008 r=0x00)
+          (string8) "Osmo Pocket 3 重置無線連接方法"
+          (string8) "畫面設置"
+        resource 0x7f132809 dji.mimo:string/panorama_single_fragment_screenshot__introduce_tips_content: t=0x03 d=0x0001a0b9 (s=0x0008 r=0x00)
+          (string8) "支持最高4K分辨率的實況照片截屏，讓分享更加輕鬆簡單。同時 Osmo Pocket 3、Osmo Action 5 Pro、Osmo Action 4 各支持5款不同的官方畫框。"

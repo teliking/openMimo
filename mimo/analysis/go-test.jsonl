@@ -1,0 +1,370 @@
+{"Time":"2026-10-25T15:59:00.5800449+08:00","Action":"start","Package":"openmimo/ble"}
+{"Time":"2026-10-25T15:59:00.5805755+08:00","Action":"start","Package":"openmimo/cmd/mimo"}
+{"Time":"2026-10-25T15:59:00.5805755+08:00","Action":"start","Package":"openmimo/control"}
+{"Time":"2026-10-25T15:59:00.5805755+08:00","Action":"output","Package":"openmimo/cmd/mimo","Output":"?   \topenmimo/cmd/mimo\t[no test files]\n"}
+{"Time":"2026-10-25T15:59:00.5805755+08:00","Action":"skip","Package":"openmimo/cmd/mimo","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6074284+08:00","Action":"run","Package":"openmimo/control","Test":"TestRejectTruncationAndUnboundedMotion"}
+{"Time":"2026-10-25T15:59:00.6074284+08:00","Action":"output","Package":"openmimo/control","Test":"TestRejectTruncationAndUnboundedMotion","Output":"=== RUN   TestRejectTruncationAndUnboundedMotion\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6074284+08:00","Action":"output","Package":"openmimo/control","Test":"TestRejectTruncationAndUnboundedMotion","Output":"--- PASS: TestRejectTruncationAndUnboundedMotion (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6074284+08:00","Action":"pass","Package":"openmimo/control","Test":"TestRejectTruncationAndUnboundedMotion","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6074284+08:00","Action":"output","Package":"openmimo/control","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.609901+08:00","Action":"output","Package":"openmimo/control","Output":"ok  \topenmimo/control\t0.029s\n"}
+{"Time":"2026-10-25T15:59:00.6154222+08:00","Action":"pass","Package":"openmimo/control","Elapsed":0.035}
+{"Time":"2026-10-25T15:59:00.61808+08:00","Action":"start","Package":"openmimo/mobilecore"}
+{"Time":"2026-10-25T15:59:00.6186058+08:00","Action":"start","Package":"openmimo/protocol/datalink"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/protocol/duml"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/protocol/pocket3"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/protocol/sdkvalue"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/protocol/wirecatalog"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"output","Package":"openmimo/protocol/wirecatalog","Output":"?   \topenmimo/protocol/wirecatalog\t[no test files]\n"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"skip","Package":"openmimo/protocol/wirecatalog","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/sequencer"}
+{"Time":"2026-10-25T15:59:00.6191159+08:00","Action":"start","Package":"openmimo/session"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"run","Package":"openmimo/protocol/datalink","Test":"TestPublishedTransportFixtures"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestPublishedTransportFixtures","Output":"=== RUN   TestPublishedTransportFixtures\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestPublishedTransportFixtures","Output":"--- PASS: TestPublishedTransportFixtures (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"pass","Package":"openmimo/protocol/datalink","Test":"TestPublishedTransportFixtures","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"run","Package":"openmimo/protocol/datalink","Test":"TestRejectDamagedDatagrams"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestRejectDamagedDatagrams","Output":"=== RUN   TestRejectDamagedDatagrams\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestRejectDamagedDatagrams","Output":"--- PASS: TestRejectDamagedDatagrams (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"pass","Package":"openmimo/protocol/datalink","Test":"TestRejectDamagedDatagrams","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"run","Package":"openmimo/protocol/datalink","Test":"TestSequenceWrap"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestSequenceWrap","Output":"=== RUN   TestSequenceWrap\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Test":"TestSequenceWrap","Output":"--- PASS: TestSequenceWrap (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"pass","Package":"openmimo/protocol/datalink","Test":"TestSequenceWrap","Elapsed":0}
+{"Time":"2026-10-25T15:59:00.6510772+08:00","Action":"output","Package":"openmimo/protocol/datalink","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:00.7098119+08:00","Action":"output","Package":"openmimo/protocol/datalink","Output":"ok  \topenmimo/protocol/datalink\t0.091s\n"}
+{"Time":"2026-10-25T15:59:00.715+08:00","Action":"pass","Package":"openmimo/protocol/datalink","Elapsed":0.096}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"run","Package":"openmimo/sequencer","Test":"TestValidateEntirePlanBeforeExecution"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestValidateEntirePlanBeforeExecution","Output":"=== RUN   TestValidateEntirePlanBeforeExecution\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestValidateEntirePlanBeforeExecution","Output":"--- PASS: TestValidateEntirePlanBeforeExecution (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"pass","Package":"openmimo/sequencer","Test":"TestValidateEntirePlanBeforeExecution","Elapsed":0}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"run","Package":"openmimo/sequencer","Test":"TestFailureDoesNotRetryOrContinue"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestFailureDoesNotRetryOrContinue","Output":"=== RUN   TestFailureDoesNotRetryOrContinue\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestFailureDoesNotRetryOrContinue","Output":"--- PASS: TestFailureDoesNotRetryOrContinue (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"pass","Package":"openmimo/sequencer","Test":"TestFailureDoesNotRetryOrContinue","Elapsed":0}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"run","Package":"openmimo/sequencer","Test":"TestCancellationInterruptsWait"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestCancellationInterruptsWait","Output":"=== RUN   TestCancellationInterruptsWait\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestCancellationInterruptsWait","Output":"--- PASS: TestCancellationInterruptsWait (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"pass","Package":"openmimo/sequencer","Test":"TestCancellationInterruptsWait","Elapsed":0}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"run","Package":"openmimo/sequencer","Test":"TestRejectUnboundedOrAmbiguousPlans"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestRejectUnboundedOrAmbiguousPlans","Output":"=== RUN   TestRejectUnboundedOrAmbiguousPlans\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Test":"TestRejectUnboundedOrAmbiguousPlans","Output":"--- PASS: TestRejectUnboundedOrAmbiguousPlans (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"pass","Package":"openmimo/sequencer","Test":"TestRejectUnboundedOrAmbiguousPlans","Elapsed":0}
+{"Time":"2026-10-25T15:59:02.2335654+08:00","Action":"output","Package":"openmimo/sequencer","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:02.2352554+08:00","Action":"output","Package":"openmimo/sequencer","Output":"ok  \topenmimo/sequencer\t1.616s\n"}
+{"Time":"2026-10-25T15:59:02.2394292+08:00","Action":"pass","Package":"openmimo/sequencer","Elapsed":1.62}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPairIdentifierLimit"}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPairIdentifierLimit","Output":"=== RUN   TestPairIdentifierLimit\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPairIdentifierLimit","Output":"--- PASS: TestPairIdentifierLimit (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPairIdentifierLimit","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors"}
+{"Time":"2026-10-25T15:59:03.0650862+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors","Output":"=== RUN   TestPublishedGimbalVectors\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral","Output":"=== RUN   TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral","Output":"--- PASS: TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.neutral","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw","Output":"=== RUN   TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw","Output":"--- PASS: TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.positive_pitch_negative_yaw","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw","Output":"=== RUN   TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw","Output":"--- PASS: TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.velocity.negative_pitch_positive_yaw","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08","Output":"=== RUN   TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08","Output":"--- PASS: TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors/pocket3.gimbal.recenter.fe08","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors","Output":"--- PASS: TestPublishedGimbalVectors (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedGimbalVectors","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestAPKVideoFormatPreservesOpaqueBits"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestAPKVideoFormatPreservesOpaqueBits","Output":"=== RUN   TestAPKVideoFormatPreservesOpaqueBits\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestAPKVideoFormatPreservesOpaqueBits","Output":"--- PASS: TestAPKVideoFormatPreservesOpaqueBits (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestAPKVideoFormatPreservesOpaqueBits","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestWireDiffersFromSDKABI"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestWireDiffersFromSDKABI","Output":"=== RUN   TestWireDiffersFromSDKABI\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestWireDiffersFromSDKABI","Output":"--- PASS: TestWireDiffersFromSDKABI (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestWireDiffersFromSDKABI","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestMotionlapseAxisOrder"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestMotionlapseAxisOrder","Output":"=== RUN   TestMotionlapseAxisOrder\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestMotionlapseAxisOrder","Output":"--- PASS: TestMotionlapseAxisOrder (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestMotionlapseAxisOrder","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestRejectInvalidCameraValues"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestRejectInvalidCameraValues","Output":"=== RUN   TestRejectInvalidCameraValues\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestRejectInvalidCameraValues","Output":"--- PASS: TestRejectInvalidCameraValues (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestRejectInvalidCameraValues","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestUnknownChargingIsPreserved"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestUnknownChargingIsPreserved","Output":"=== RUN   TestUnknownChargingIsPreserved\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestUnknownChargingIsPreserved","Output":"--- PASS: TestUnknownChargingIsPreserved (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestUnknownChargingIsPreserved","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestNativeGimbalEncoders"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestNativeGimbalEncoders","Output":"=== RUN   TestNativeGimbalEncoders\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestNativeGimbalEncoders","Output":"--- PASS: TestNativeGimbalEncoders (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestNativeGimbalEncoders","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors","Output":"=== RUN   TestPublishedCameraVectors\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.auto"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.auto","Output":"=== RUN   TestPublishedCameraVectors/pocket3.camera.manual_iso.auto\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.auto","Output":"--- PASS: TestPublishedCameraVectors/pocket3.camera.manual_iso.auto (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.auto","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.100"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.100","Output":"=== RUN   TestPublishedCameraVectors/pocket3.camera.manual_iso.100\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.100","Output":"--- PASS: TestPublishedCameraVectors/pocket3.camera.manual_iso.100 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.100","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.6400"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.6400","Output":"=== RUN   TestPublishedCameraVectors/pocket3.camera.manual_iso.6400\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.6400","Output":"--- PASS: TestPublishedCameraVectors/pocket3.camera.manual_iso.6400 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.manual_iso.6400","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.100"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.100","Output":"=== RUN   TestPublishedCameraVectors/pocket3.camera.iso_max.100\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.100","Output":"--- PASS: TestPublishedCameraVectors/pocket3.camera.iso_max.100 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.100","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.6400"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.6400","Output":"=== RUN   TestPublishedCameraVectors/pocket3.camera.iso_max.6400\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.6400","Output":"--- PASS: TestPublishedCameraVectors/pocket3.camera.iso_max.6400 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors/pocket3.camera.iso_max.6400","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors","Output":"--- PASS: TestPublishedCameraVectors (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPublishedCameraVectors","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestHG212VideoSetterDiffersFromCachedLegacyModule"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestHG212VideoSetterDiffersFromCachedLegacyModule","Output":"=== RUN   TestHG212VideoSetterDiffersFromCachedLegacyModule\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestHG212VideoSetterDiffersFromCachedLegacyModule","Output":"--- PASS: TestHG212VideoSetterDiffersFromCachedLegacyModule (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestHG212VideoSetterDiffersFromCachedLegacyModule","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestNativeResolutionAndFrameRateConversions"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestNativeResolutionAndFrameRateConversions","Output":"=== RUN   TestNativeResolutionAndFrameRateConversions\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestNativeResolutionAndFrameRateConversions","Output":"--- PASS: TestNativeResolutionAndFrameRateConversions (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestNativeResolutionAndFrameRateConversions","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestVideoV2DoesNotAliasLegacyFormat"}
+{"Time":"2026-10-25T15:59:03.0656132+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestVideoV2DoesNotAliasLegacyFormat","Output":"=== RUN   TestVideoV2DoesNotAliasLegacyFormat\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestVideoV2DoesNotAliasLegacyFormat","Output":"--- PASS: TestVideoV2DoesNotAliasLegacyFormat (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestVideoV2DoesNotAliasLegacyFormat","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapabilityFormatEntries"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapabilityFormatEntries","Output":"=== RUN   TestCapabilityFormatEntries\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapabilityFormatEntries","Output":"--- PASS: TestCapabilityFormatEntries (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapabilityFormatEntries","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestPropertyUnknownStatesAndTruncation"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPropertyUnknownStatesAndTruncation","Output":"=== RUN   TestPropertyUnknownStatesAndTruncation\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestPropertyUnknownStatesAndTruncation","Output":"--- PASS: TestPropertyUnknownStatesAndTruncation (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestPropertyUnknownStatesAndTruncation","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors","Output":"=== RUN   TestCapturedPropertyVectors\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_video_param_v2"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_video_param_v2","Output":"=== RUN   TestCapturedPropertyVectors/cam_video_param_v2\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_video_param_v2","Output":"--- PASS: TestCapturedPropertyVectors/cam_video_param_v2 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_video_param_v2","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_image_effect"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_image_effect","Output":"=== RUN   TestCapturedPropertyVectors/cam_image_effect\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_image_effect","Output":"--- PASS: TestCapturedPropertyVectors/cam_image_effect (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_image_effect","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_expo_param"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_expo_param","Output":"=== RUN   TestCapturedPropertyVectors/cam_expo_param\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_expo_param","Output":"--- PASS: TestCapturedPropertyVectors/cam_expo_param (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_expo_param","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"run","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_lens_state"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_lens_state","Output":"=== RUN   TestCapturedPropertyVectors/cam_lens_state\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_lens_state","Output":"--- PASS: TestCapturedPropertyVectors/cam_lens_state (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors/cam_lens_state","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors","Output":"--- PASS: TestCapturedPropertyVectors (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Test":"TestCapturedPropertyVectors","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.0661234+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.0681921+08:00","Action":"output","Package":"openmimo/protocol/pocket3","Output":"ok  \topenmimo/protocol/pocket3\t2.449s\n"}
+{"Time":"2026-10-25T15:59:03.0734676+08:00","Action":"pass","Package":"openmimo/protocol/pocket3","Elapsed":2.454}
+{"Time":"2026-10-25T15:59:03.0829174+08:00","Action":"run","Package":"openmimo/session","Test":"TestSessionConcurrentRequestsAndForeignReplies"}
+{"Time":"2026-10-25T15:59:03.0829174+08:00","Action":"output","Package":"openmimo/session","Test":"TestSessionConcurrentRequestsAndForeignReplies","Output":"=== RUN   TestSessionConcurrentRequestsAndForeignReplies\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1026503+08:00","Action":"output","Package":"openmimo/session","Test":"TestSessionConcurrentRequestsAndForeignReplies","Output":"--- PASS: TestSessionConcurrentRequestsAndForeignReplies (0.02s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1026503+08:00","Action":"pass","Package":"openmimo/session","Test":"TestSessionConcurrentRequestsAndForeignReplies","Elapsed":0.02}
+{"Time":"2026-10-25T15:59:03.1026503+08:00","Action":"run","Package":"openmimo/session","Test":"TestTimeoutDoesNotReplayAction"}
+{"Time":"2026-10-25T15:59:03.1031558+08:00","Action":"output","Package":"openmimo/session","Test":"TestTimeoutDoesNotReplayAction","Output":"=== RUN   TestTimeoutDoesNotReplayAction\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1215989+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestJSONBoundaryAndOfflineActions"}
+{"Time":"2026-10-25T15:59:03.1215989+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestJSONBoundaryAndOfflineActions","Output":"=== RUN   TestJSONBoundaryAndOfflineActions\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1221336+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestJSONBoundaryAndOfflineActions","Output":"--- PASS: TestJSONBoundaryAndOfflineActions (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1221336+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestJSONBoundaryAndOfflineActions","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.1221336+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestSocketBinderUsesExplicitHandleWithoutSending"}
+{"Time":"2026-10-25T15:59:03.1221336+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestSocketBinderUsesExplicitHandleWithoutSending","Output":"=== RUN   TestSocketBinderUsesExplicitHandleWithoutSending\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1242314+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestSocketBinderUsesExplicitHandleWithoutSending","Output":"--- PASS: TestSocketBinderUsesExplicitHandleWithoutSending (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1242314+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestSocketBinderUsesExplicitHandleWithoutSending","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.1242314+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestGATTOperationRequiresMatchingAcknowledgement"}
+{"Time":"2026-10-25T15:59:03.1242314+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestGATTOperationRequiresMatchingAcknowledgement","Output":"=== RUN   TestGATTOperationRequiresMatchingAcknowledgement\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestGATTOperationRequiresMatchingAcknowledgement","Output":"--- PASS: TestGATTOperationRequiresMatchingAcknowledgement (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestGATTOperationRequiresMatchingAcknowledgement","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestGATTCloseWakesWritesAndSuppressesFutureOperations"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestGATTCloseWakesWritesAndSuppressesFutureOperations","Output":"=== RUN   TestGATTCloseWakesWritesAndSuppressesFutureOperations\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestGATTCloseWakesWritesAndSuppressesFutureOperations","Output":"--- PASS: TestGATTCloseWakesWritesAndSuppressesFutureOperations (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestGATTCloseWakesWritesAndSuppressesFutureOperations","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestStatusSerializationDuringPropertyUpdates"}
+{"Time":"2026-10-25T15:59:03.1349423+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestStatusSerializationDuringPropertyUpdates","Output":"=== RUN   TestStatusSerializationDuringPropertyUpdates\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1365081+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestStatusSerializationDuringPropertyUpdates","Output":"--- PASS: TestStatusSerializationDuringPropertyUpdates (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1365081+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestStatusSerializationDuringPropertyUpdates","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.1365081+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestJogWatchdogNeutralizesWithoutFurtherUIUpdates"}
+{"Time":"2026-10-25T15:59:03.1365081+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestJogWatchdogNeutralizesWithoutFurtherUIUpdates","Output":"=== RUN   TestJogWatchdogNeutralizesWithoutFurtherUIUpdates\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1975762+08:00","Action":"output","Package":"openmimo/session","Test":"TestTimeoutDoesNotReplayAction","Output":"--- PASS: TestTimeoutDoesNotReplayAction (0.09s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.1975762+08:00","Action":"pass","Package":"openmimo/session","Test":"TestTimeoutDoesNotReplayAction","Elapsed":0.09}
+{"Time":"2026-10-25T15:59:03.1975762+08:00","Action":"run","Package":"openmimo/session","Test":"TestCloseWakesPendingRequests"}
+{"Time":"2026-10-25T15:59:03.1975762+08:00","Action":"output","Package":"openmimo/session","Test":"TestCloseWakesPendingRequests","Output":"=== RUN   TestCloseWakesPendingRequests\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2083269+08:00","Action":"output","Package":"openmimo/session","Test":"TestCloseWakesPendingRequests","Output":"--- PASS: TestCloseWakesPendingRequests (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2083269+08:00","Action":"pass","Package":"openmimo/session","Test":"TestCloseWakesPendingRequests","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.2083269+08:00","Action":"run","Package":"openmimo/session","Test":"TestHandshakeCancellation"}
+{"Time":"2026-10-25T15:59:03.2083269+08:00","Action":"output","Package":"openmimo/session","Test":"TestHandshakeCancellation","Output":"=== RUN   TestHandshakeCancellation\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2237432+08:00","Action":"output","Package":"openmimo/session","Test":"TestHandshakeCancellation","Output":"--- PASS: TestHandshakeCancellation (0.02s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2237432+08:00","Action":"pass","Package":"openmimo/session","Test":"TestHandshakeCancellation","Elapsed":0.02}
+{"Time":"2026-10-25T15:59:03.2237432+08:00","Action":"run","Package":"openmimo/session","Test":"TestCloseStopsActiveGimbal"}
+{"Time":"2026-10-25T15:59:03.2237432+08:00","Action":"output","Package":"openmimo/session","Test":"TestCloseStopsActiveGimbal","Output":"=== RUN   TestCloseStopsActiveGimbal\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"output","Package":"openmimo/session","Test":"TestCloseStopsActiveGimbal","Output":"--- PASS: TestCloseStopsActiveGimbal (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"pass","Package":"openmimo/session","Test":"TestCloseStopsActiveGimbal","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"run","Package":"openmimo/session","Test":"TestReceiveWindowsSeedThenTrackDirectPackets"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"output","Package":"openmimo/session","Test":"TestReceiveWindowsSeedThenTrackDirectPackets","Output":"=== RUN   TestReceiveWindowsSeedThenTrackDirectPackets\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"output","Package":"openmimo/session","Test":"TestReceiveWindowsSeedThenTrackDirectPackets","Output":"--- PASS: TestReceiveWindowsSeedThenTrackDirectPackets (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"pass","Package":"openmimo/session","Test":"TestReceiveWindowsSeedThenTrackDirectPackets","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"run","Package":"openmimo/session","Test":"TestConcurrentPropertyReadsMatchTransactionAndName"}
+{"Time":"2026-10-25T15:59:03.2370555+08:00","Action":"output","Package":"openmimo/session","Test":"TestConcurrentPropertyReadsMatchTransactionAndName","Output":"=== RUN   TestConcurrentPropertyReadsMatchTransactionAndName\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2489711+08:00","Action":"output","Package":"openmimo/session","Test":"TestConcurrentPropertyReadsMatchTransactionAndName","Output":"--- PASS: TestConcurrentPropertyReadsMatchTransactionAndName (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.2489711+08:00","Action":"pass","Package":"openmimo/session","Test":"TestConcurrentPropertyReadsMatchTransactionAndName","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.2489711+08:00","Action":"run","Package":"openmimo/session","Test":"TestObservePropertyWithFirmwarePushCounter"}
+{"Time":"2026-10-25T15:59:03.2489711+08:00","Action":"output","Package":"openmimo/session","Test":"TestObservePropertyWithFirmwarePushCounter","Output":"=== RUN   TestObservePropertyWithFirmwarePushCounter\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3100981+08:00","Action":"output","Package":"openmimo/session","Test":"TestObservePropertyWithFirmwarePushCounter","Output":"--- PASS: TestObservePropertyWithFirmwarePushCounter (0.06s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3100981+08:00","Action":"pass","Package":"openmimo/session","Test":"TestObservePropertyWithFirmwarePushCounter","Elapsed":0.06}
+{"Time":"2026-10-25T15:59:03.3100981+08:00","Action":"run","Package":"openmimo/session","Test":"TestPropertyReadCancellationAndShutdown"}
+{"Time":"2026-10-25T15:59:03.3100981+08:00","Action":"output","Package":"openmimo/session","Test":"TestPropertyReadCancellationAndShutdown","Output":"=== RUN   TestPropertyReadCancellationAndShutdown\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3367628+08:00","Action":"output","Package":"openmimo/session","Test":"TestPropertyReadCancellationAndShutdown","Output":"--- PASS: TestPropertyReadCancellationAndShutdown (0.03s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3367628+08:00","Action":"pass","Package":"openmimo/session","Test":"TestPropertyReadCancellationAndShutdown","Elapsed":0.03}
+{"Time":"2026-10-25T15:59:03.3367628+08:00","Action":"run","Package":"openmimo/session","Test":"TestRejectEncryptedCommandsAndInvalidSessionConfig"}
+{"Time":"2026-10-25T15:59:03.3367628+08:00","Action":"output","Package":"openmimo/session","Test":"TestRejectEncryptedCommandsAndInvalidSessionConfig","Output":"=== RUN   TestRejectEncryptedCommandsAndInvalidSessionConfig\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3464951+08:00","Action":"output","Package":"openmimo/session","Test":"TestRejectEncryptedCommandsAndInvalidSessionConfig","Output":"--- PASS: TestRejectEncryptedCommandsAndInvalidSessionConfig (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3464951+08:00","Action":"pass","Package":"openmimo/session","Test":"TestRejectEncryptedCommandsAndInvalidSessionConfig","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.3464951+08:00","Action":"run","Package":"openmimo/session","Test":"TestTransportFailureRetainsCauseAndUnknownActionOutcome"}
+{"Time":"2026-10-25T15:59:03.3464951+08:00","Action":"output","Package":"openmimo/session","Test":"TestTransportFailureRetainsCauseAndUnknownActionOutcome","Output":"=== RUN   TestTransportFailureRetainsCauseAndUnknownActionOutcome\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3590441+08:00","Action":"output","Package":"openmimo/session","Test":"TestTransportFailureRetainsCauseAndUnknownActionOutcome","Output":"--- PASS: TestTransportFailureRetainsCauseAndUnknownActionOutcome (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3590441+08:00","Action":"pass","Package":"openmimo/session","Test":"TestTransportFailureRetainsCauseAndUnknownActionOutcome","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:03.3590441+08:00","Action":"output","Package":"openmimo/session","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3623179+08:00","Action":"output","Package":"openmimo/session","Output":"ok  \topenmimo/session\t2.743s\n"}
+{"Time":"2026-10-25T15:59:03.3666143+08:00","Action":"pass","Package":"openmimo/session","Elapsed":2.747}
+{"Time":"2026-10-25T15:59:03.3868057+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestJogWatchdogNeutralizesWithoutFurtherUIUpdates","Output":"--- PASS: TestJogWatchdogNeutralizesWithoutFurtherUIUpdates (0.25s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3868057+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestJogWatchdogNeutralizesWithoutFurtherUIUpdates","Elapsed":0.25}
+{"Time":"2026-10-25T15:59:03.3868057+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestEngineScriptCancellationLeavesNoSubsequentCapture"}
+{"Time":"2026-10-25T15:59:03.3868057+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestEngineScriptCancellationLeavesNoSubsequentCapture","Output":"=== RUN   TestEngineScriptCancellationLeavesNoSubsequentCapture\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestEngineScriptCancellationLeavesNoSubsequentCapture","Output":"--- PASS: TestEngineScriptCancellationLeavesNoSubsequentCapture (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestEngineScriptCancellationLeavesNoSubsequentCapture","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"run","Package":"openmimo/mobilecore","Test":"TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities"}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities","Output":"=== RUN   TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"output","Package":"openmimo/mobilecore","Test":"TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities","Output":"--- PASS: TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"pass","Package":"openmimo/mobilecore","Test":"TestUnexpectedDisconnectReportsCauseAndDropsCachedCapabilities","Elapsed":0}
+{"Time":"2026-10-25T15:59:03.3878908+08:00","Action":"output","Package":"openmimo/mobilecore","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:03.3909714+08:00","Action":"output","Package":"openmimo/mobilecore","Output":"ok  \topenmimo/mobilecore\t2.771s\n"}
+{"Time":"2026-10-25T15:59:03.3958743+08:00","Action":"pass","Package":"openmimo/mobilecore","Elapsed":2.778}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestCapturedWakeFrame"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"run","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestCapturedWakeFrame","Output":"=== RUN   TestCapturedWakeFrame\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval","Output":"=== RUN   TestHandoffAlreadyPairedAndApproval\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestCapturedWakeFrame","Output":"--- PASS: TestCapturedWakeFrame (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"run","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/already-paired"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestCapturedWakeFrame","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/already-paired","Output":"=== RUN   TestHandoffAlreadyPairedAndApproval/already-paired\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures"}
+{"Time":"2026-10-25T15:59:08.8751829+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures","Output":"=== RUN   TestPublishedCRCFixtures\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.session_wake_header"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.session_wake_header","Output":"=== RUN   TestPublishedCRCFixtures/pocket3.crc8.session_wake_header\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.session_wake_header","Output":"--- PASS: TestPublishedCRCFixtures/pocket3.crc8.session_wake_header (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.session_wake_header","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.pairing_header"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.pairing_header","Output":"=== RUN   TestPublishedCRCFixtures/pocket3.crc8.pairing_header\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.pairing_header","Output":"--- PASS: TestPublishedCRCFixtures/pocket3.crc8.pairing_header (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc8.pairing_header","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.session_wake_body"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.session_wake_body","Output":"=== RUN   TestPublishedCRCFixtures/pocket3.crc16.session_wake_body\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.session_wake_body","Output":"--- PASS: TestPublishedCRCFixtures/pocket3.crc16.session_wake_body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.session_wake_body","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body","Output":"=== RUN   TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body","Output":"--- PASS: TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.routing_metadata_frame_body","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake","Output":"=== RUN   TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake","Output":"--- PASS: TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures/pocket3.crc16.reject_corrupted_session_wake","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures","Output":"--- PASS: TestPublishedCRCFixtures (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8757013+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestPublishedCRCFixtures","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestStreamRecoversAndReassembles"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestStreamRecoversAndReassembles","Output":"=== RUN   TestStreamRecoversAndReassembles\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestStreamRecoversAndReassembles","Output":"--- PASS: TestStreamRecoversAndReassembles (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestStreamRecoversAndReassembles","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"TestTenBitLength"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestTenBitLength","Output":"=== RUN   TestTenBitLength\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"TestTenBitLength","Output":"--- PASS: TestTenBitLength (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"TestTenBitLength","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"FuzzParse"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"FuzzParse","Output":"=== RUN   FuzzParse\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"run","Package":"openmimo/protocol/duml","Test":"FuzzParse/seed#0"}
+{"Time":"2026-10-25T15:59:08.8762344+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"FuzzParse/seed#0","Output":"=== RUN   FuzzParse/seed#0\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"FuzzParse/seed#0","Output":"--- PASS: FuzzParse/seed#0 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"FuzzParse/seed#0","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"output","Package":"openmimo/protocol/duml","Test":"FuzzParse","Output":"--- PASS: FuzzParse (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"pass","Package":"openmimo/protocol/duml","Test":"FuzzParse","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"output","Package":"openmimo/protocol/duml","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors"}
+{"Time":"2026-10-25T15:59:08.8767685+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors","Output":"=== RUN   TestOriginalJavaSerializerVectors\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8788891+08:00","Action":"output","Package":"openmimo/protocol/duml","Output":"ok  \topenmimo/protocol/duml\t8.260s\n"}
+{"Time":"2026-10-25T15:59:08.8846722+08:00","Action":"pass","Package":"openmimo/protocol/duml","Elapsed":8.266}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k60"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k60","Output":"=== RUN   TestOriginalJavaSerializerVectors/video-4k60\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k60","Output":"--- PASS: TestOriginalJavaSerializerVectors/video-4k60 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k60","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k120-slow4"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k120-slow4","Output":"=== RUN   TestOriginalJavaSerializerVectors/video-4k120-slow4\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k120-slow4","Output":"--- PASS: TestOriginalJavaSerializerVectors/video-4k120-slow4 (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/video-4k120-slow4","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-relative"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-relative","Output":"=== RUN   TestOriginalJavaSerializerVectors/gimbal-relative\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-relative","Output":"--- PASS: TestOriginalJavaSerializerVectors/gimbal-relative (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-relative","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-speed"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-speed","Output":"=== RUN   TestOriginalJavaSerializerVectors/gimbal-speed\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-speed","Output":"--- PASS: TestOriginalJavaSerializerVectors/gimbal-speed (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-speed","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-waypoint"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-waypoint","Output":"=== RUN   TestOriginalJavaSerializerVectors/gimbal-waypoint\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-waypoint","Output":"--- PASS: TestOriginalJavaSerializerVectors/gimbal-waypoint (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/gimbal-waypoint","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/camera-mode-range"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/camera-mode-range","Output":"=== RUN   TestOriginalJavaSerializerVectors/camera-mode-range\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/camera-mode-range","Output":"--- PASS: TestOriginalJavaSerializerVectors/camera-mode-range (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors/camera-mode-range","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.8899567+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors","Output":"--- PASS: TestOriginalJavaSerializerVectors (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.8904635+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestOriginalJavaSerializerVectors","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:08.8904635+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestCatalogReferencesResolve"}
+{"Time":"2026-10-25T15:59:08.8904635+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestCatalogReferencesResolve","Output":"=== RUN   TestCatalogReferencesResolve\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9000203+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestCatalogReferencesResolve","Output":"--- PASS: TestCatalogReferencesResolve (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9000203+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestCatalogReferencesResolve","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:08.9000203+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestMalformedValues"}
+{"Time":"2026-10-25T15:59:08.9000203+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestMalformedValues","Output":"=== RUN   TestMalformedValues\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9074227+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/already-paired","Output":"--- PASS: TestHandoffAlreadyPairedAndApproval/already-paired (0.03s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9074227+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/already-paired","Elapsed":0.03}
+{"Time":"2026-10-25T15:59:08.9074227+08:00","Action":"run","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/camera-approval"}
+{"Time":"2026-10-25T15:59:08.9074227+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/camera-approval","Output":"=== RUN   TestHandoffAlreadyPairedAndApproval/camera-approval\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9095437+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestMalformedValues","Output":"--- PASS: TestMalformedValues (0.01s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9095437+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestMalformedValues","Elapsed":0.01}
+{"Time":"2026-10-25T15:59:08.9095437+08:00","Action":"run","Package":"openmimo/protocol/sdkvalue","Test":"TestEncodeDecodeShareAggregateListBudget"}
+{"Time":"2026-10-25T15:59:08.9095437+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestEncodeDecodeShareAggregateListBudget","Output":"=== RUN   TestEncodeDecodeShareAggregateListBudget\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9132085+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Test":"TestEncodeDecodeShareAggregateListBudget","Output":"--- PASS: TestEncodeDecodeShareAggregateListBudget (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9132085+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Test":"TestEncodeDecodeShareAggregateListBudget","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.9132085+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9158369+08:00","Action":"output","Package":"openmimo/protocol/sdkvalue","Output":"ok  \topenmimo/protocol/sdkvalue\t8.297s\n"}
+{"Time":"2026-10-25T15:59:08.9211474+08:00","Action":"pass","Package":"openmimo/protocol/sdkvalue","Elapsed":8.302}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/camera-approval","Output":"--- PASS: TestHandoffAlreadyPairedAndApproval/camera-approval (0.03s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval/camera-approval","Elapsed":0.03}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval","Output":"--- PASS: TestHandoffAlreadyPairedAndApproval (0.06s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestHandoffAlreadyPairedAndApproval","Elapsed":0.06}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"run","Package":"openmimo/ble","Test":"TestHandoffDenied"}
+{"Time":"2026-10-25T15:59:08.939642+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffDenied","Output":"=== RUN   TestHandoffDenied\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffDenied","Output":"--- PASS: TestHandoffDenied (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestHandoffDenied","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"run","Package":"openmimo/ble","Test":"TestHandoffCancellation"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffCancellation","Output":"=== RUN   TestHandoffCancellation\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Test":"TestHandoffCancellation","Output":"--- PASS: TestHandoffCancellation (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestHandoffCancellation","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"run","Package":"openmimo/ble","Test":"TestTimingOverflowRejected"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Test":"TestTimingOverflowRejected","Output":"=== RUN   TestTimingOverflowRejected\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Test":"TestTimingOverflowRejected","Output":"--- PASS: TestTimingOverflowRejected (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"pass","Package":"openmimo/ble","Test":"TestTimingOverflowRejected","Elapsed":0}
+{"Time":"2026-10-25T15:59:08.9419358+08:00","Action":"output","Package":"openmimo/ble","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-10-25T15:59:08.9443645+08:00","Action":"output","Package":"openmimo/ble","Output":"ok  \topenmimo/ble\t8.364s\n"}
+{"Time":"2026-10-25T15:59:08.9486606+08:00","Action":"pass","Package":"openmimo/ble","Elapsed":8.369}

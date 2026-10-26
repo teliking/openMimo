@@ -1,0 +1,101 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.duml.encode.session_wake",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testSessionWakeMatchesFrozenAndroidBytes @ 5d11fde; private Android DjiMessage.kt @ 065653b3"
+    },
+    "operation": "duml.encode",
+    "input": {
+      "targetHex": "F002",
+      "idHex": "802B",
+      "flagsHex": "40",
+      "commandSetHex": "00",
+      "commandIdHex": "2B",
+      "payloadHex": "0400"
+    },
+    "expected": {
+      "frameHex": "550F04A202F02B8040002B04002440"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.duml.decode.session_wake",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testSessionWakeMatchesFrozenAndroidBytes @ 5d11fde; private Android DjiMessage.kt @ 065653b3"
+    },
+    "operation": "duml.decode",
+    "input": {
+      "frameHex": "550F04A202F02B8040002B04002440"
+    },
+    "expected": {
+      "targetHex": "F002",
+      "idHex": "802B",
+      "flagsHex": "40",
+      "commandSetHex": "00",
+      "commandIdHex": "2B",
+      "payloadHex": "0400"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.transport.udp_header.command",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testUDPHeaderLayoutAndXor @ 5d11fde; private Android DumlTransport.udpHeader @ 065653b3"
+    },
+    "operation": "transport.udpHeader",
+    "input": {
+      "packetTypeHex": "05",
+      "payloadLength": 34,
+      "sessionIdHex": "1234",
+      "sequenceHex": "5678"
+    },
+    "expected": {
+      "headerHex": "2A803412785605A7"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.transport.ack_window.representative",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testAckPayloadHasExactThreeWindows @ 5d11fde; private Android DumlTransport.ackPayload @ 065653b3"
+    },
+    "operation": "transport.ackPayload",
+    "input": {
+      "rxType2SequenceHex": "1111",
+      "rxType3SequenceHex": "2222",
+      "peerAckedTxSequenceHex": "3333",
+      "lastTxSequenceHex": "4444"
+    },
+    "expected": {
+      "payloadHex": "1111111100000000222222220000000033334444000000000000"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "pocket3.transport.routing_header.camera",
+    "device": "pocket3",
+    "evidence": {
+      "level": "source-confirmed",
+      "source": "Private iOS Pocket3ControllerV03Tests.testRoutingHeaderUsesActualPeerAck @ 5d11fde; private Android DumlTransport.routingHeader @ 065653b3"
+    },
+    "operation": "transport.routingHeader",
+    "input": {
+      "sequenceHex": "5678",
+      "peerAckHex": "1234",
+      "commandCounterHex": "9A",
+      "drone": false
+    },
+    "expected": {
+      "headerHex": "34127856000000009A010000"
+    }
+  }
+]

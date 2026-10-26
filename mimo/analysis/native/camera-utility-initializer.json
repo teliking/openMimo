@@ -1,0 +1,47 @@
+{
+  "addr": "0x14fb38c",
+  "code": "__int64 __fastcall sub_14FB38C(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8)\n{\n  __int128 *v8; // x0\n  __int64 v9; // x3\n  __int64 v10; // x4\n  __int64 v11; // x5\n  __int64 v12; // x6\n  __int64 v13; // x7\n  __int64 v14; // x3\n  __int64 v15; // x4\n  __int64 v16; // x5\n  __int64 v17; // x6\n  __int64 v18; // x7\n  __int64 v19; // x3\n  __int64 v20; // x4\n  __int64 v21; // x5\n  __int64 v22; // x6\n  __int64 v23; // x7\n  __int64 v24; // x3\n  __int64 v25; // x4\n  __int64 v26; // x5\n  __int64 v27; // x6\n  __int64 v28; // x7\n  __int64 v29; // x3\n  __int64 v30; // x4\n  __int64 v31; // x5\n  __int64 v32; // x6\n  __int64 v33; // x7\n  __int64 v34; // x3\n  __int64 v35; // x4\n  __int64 v36; // x5\n  __int64 v37; // x6\n  __int64 v38; // x7\n  __int64 v39; // x3\n  __int64 v40; // x4\n  __int64 v41; // x5\n  __int64 v42; // x6\n  __int64 v43; // x7\n  __int64 v44; // x3\n  __int64 v45; // x4\n  __int6... [82048 chars total]",
+  "refs": [
+    {
+      "addr": "0xbdbdf4",
+      "name": "byte_BDBDF4"
+    },
+    {
+      "addr": "0x275f898",
+      "name": "off_275F898"
+    },
+    {
+      "addr": "0x20",
+      "name": "qword_20"
+    },
+    {
+      "addr": "0x263ccc0",
+      "name": "j__ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN3dji3sdk14VideoFrameRateEEENS_22__unordered_map_hasherIiS5_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIiJRKNS_4pairIKiS4_EEEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_"
+    },
+    {
+      "addr": "0x261d720",
+      "name": "__cxa_atexit"
+    },
+    {
+      "addr": "0x14f9320",
+      "name": "sub_14F9320"
+    },
+    {
+      "addr": "0x26520f0",
+      "name": "off_26520F0"
+    },
+    {
+      "addr": "0x261d920",
+      "name": "memcpy"
+    },
+    {
+      "addr": "0xbdbe9c",
+      "name": "dword_BDBE9C"
+    },
+    {
+      "addr": "0x275f890",
+      "name": "off_275F890"
+    }
+  ],
+  "decompilation_truncated": true
+}
